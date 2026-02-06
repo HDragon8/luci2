@@ -31,7 +31,7 @@ msgstr "%.1f dB"
 msgid "%d Bit"
 msgstr "%d bit"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4442
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4550
 msgid "%d invalid field(s)"
 msgstr "%d trường không hợp lệ"
 
@@ -114,16 +114,16 @@ msgstr "(%d phút đầu, %d giây kế tiếp)"
 msgid "(Max 1h == 3600)"
 msgstr "(Tối đa 1h == 3600)"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:127
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:133
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:269
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:293
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:134
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:140
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:277
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:301
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:88
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:91
 msgid "(empty)"
 msgstr "(Rỗng)"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:365
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:373
 #: modules/luci-compat/luasrc/view/cbi/network_netinfo.htm:23
 #: modules/luci-compat/luasrc/view/cbi/network_netlist.htm:58
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/29_ports.js:275
@@ -140,8 +140,8 @@ msgid "-- Additional Field --"
 msgstr "---Mục bổ sung---"
 
 #: modules/luci-base/htdocs/luci-static/resources/cbi.js:275
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3806
-#: modules/luci-base/htdocs/luci-static/resources/form.js:4453
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3897
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4524
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:804
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:1042
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:2064
@@ -485,11 +485,11 @@ msgstr ""
 "Một MTU mặc định là 65535 được thiết lập bởi Yggdrasil. Khuyến nghị nên sử "
 "dụng giá trị mặc định."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3041
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3137
 msgid "A directory with the same name already exists."
 msgstr "thư mục có tên này đã tồn tại."
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2621
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2619
 msgid "A new login is required since the authentication session expired."
 msgstr "Cần đăng nhận lại vì phiên xác thực cũ đã hết hạn."
 
@@ -667,9 +667,9 @@ msgstr ""
 msgid "ATM device number"
 msgstr "Số hiệu thiết bị ATM"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:276
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:575
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:579
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:284
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:583
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:587
 msgid "Absent Interface"
 msgstr "Giao diện vắng mặt"
 
@@ -780,11 +780,11 @@ msgstr "Cân bằng tải thích ứng"
 msgid "Adaptive transmit load balancing"
 msgstr "Cân bằng tải truyền thích ứng"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2241
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2244
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2257
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2265
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3601
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2264
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2267
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2280
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2288
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3692
 #: modules/luci-compat/luasrc/view/cbi/nsection.htm:25
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:189
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:197
@@ -835,8 +835,8 @@ msgstr "Thêm cấu hình thiết bị…"
 msgid "Add instance"
 msgstr "Thêm phiên bản"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:200
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:267
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:204
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:271
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:171
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:177
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:274
@@ -1068,7 +1068,7 @@ msgstr "Phân bổ tuần tự địa chủ IP"
 msgid "Allocate listen addresses"
 msgstr "Phân bổ địa chỉ nghe"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:27
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:35
 msgid "Allow <abbr title=\"Secure Shell\">SSH</abbr> password authentication"
 msgstr "Cho phép <abbr title=\"Secure Shell\">SSH</abbr> xác thực mật mã"
 
@@ -1112,11 +1112,11 @@ msgstr "Cho phép khởi động lại thiết bị"
 msgid "Allow receiving on inactive ports"
 msgstr "Cho phép nhận trên các cổng không hiện hoạt"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:38
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:46
 msgid "Allow remote hosts to connect to local SSH forwarded ports"
 msgstr "Cho phép máy chủ từ xa kết nối với các cổng chuyển tiếp SSH cục bộ"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:33
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:41
 msgid "Allow root logins with password"
 msgstr "Cho phép root đăng nhập với mật khẩu"
 
@@ -1124,7 +1124,7 @@ msgstr "Cho phép root đăng nhập với mật khẩu"
 msgid "Allow system feature probing"
 msgstr "Cho phép dò tìm tính năng hệ thống"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:33
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:41
 msgid "Allow the <em>root</em> user to log in with password"
 msgstr "Cho phép người dùng <em>root</em> đăng nhập với mật khẩu"
 
@@ -1265,9 +1265,9 @@ msgctxt "nft match any traffic"
 msgid "Any packet"
 msgstr "Bất kỳ gói tin nào"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:93
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:183
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:205
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:100
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:191
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:213
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:60
 msgid "Any zone"
 msgstr "Bất kỳ khu vực nào"
@@ -1276,22 +1276,22 @@ msgstr "Bất kỳ khu vực nào"
 msgid "Apply backup?"
 msgstr "Chấp nhận sao lưu?"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5086
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5194
 msgid "Apply request failed with status <code>%h</code>"
 msgstr "Áp dụng yêu cầu không thành công với trạng thái <code>%h</code>"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2134
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4803
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4924
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5060
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2132
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4911
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5032
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5168
 msgid "Apply unchecked"
 msgstr "Áp dụng không kiểm tra"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5056
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5164
 msgid "Apply, reverting in case of connectivity loss"
 msgstr "Áp dụng và tự động phục hồi nếu mất kết nối"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4997
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5105
 msgid "Applying configuration changes… %ds"
 msgstr "Đang áp dụng cấu hình... %ds"
 
@@ -1639,6 +1639,10 @@ msgstr ""
 msgid "Bind the tunnel to this interface (optional)."
 msgstr "Liên kết đường hầm dữ liệu với giao diện này (tùy chọn)."
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:20
+msgid "Bind to Interface"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:119
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:180
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:172
@@ -1715,8 +1719,8 @@ msgstr "Kích hoạt giao diện cầu ngay cả khi không có cổng nào đư
 msgid "Broadcast"
 msgstr "Phát sóng"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3131
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4552
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3227
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4660
 msgid "Browse…"
 msgstr "Duyệt qua…"
 
@@ -1789,9 +1793,10 @@ msgstr ""
 "Có thể hữu ích nếu nhà cung cấp dịch vụ Internet (ISP) có máy chủ tên miền "
 "IPv6 nhưng không cung cấp định tuyến IPv6."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3223
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4561
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5052
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3110
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3331
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4669
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5160
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:14
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:52
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:174
@@ -1799,7 +1804,7 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2293
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:128
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:297
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:105
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:109
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:209
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:472
 msgid "Cancel"
@@ -1919,11 +1924,11 @@ msgctxt "Yet unknown nftables chain hook"
 msgid "Chain hook \"%h\""
 msgstr "Móc chuỗi \"%h\""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4783
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4891
 msgid "Changes"
 msgstr "Thay đổi"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5047
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5155
 msgid ""
 "Changes have been made to the existing connection via \"%h\". This could "
 "inhibit access to this device. Any IP change requires <strong>connecting to "
@@ -1933,7 +1938,7 @@ msgstr ""
 "chặn việc truy cập vào thiết bị này. Mọi thay đổi IP yêu cầu <strong>kết nối "
 "đến IP mới</strong> trong vòng %d giây để giữ lại các thay đổi."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5122
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5230
 msgid "Changes have been reverted."
 msgstr "Những thay đổi đã được phục hồi."
 
@@ -2035,12 +2040,12 @@ msgstr "Máy Khách"
 msgid "Client ID to send when requesting DHCP"
 msgstr "ID máy khách gửi khi yêu cầu DHCP"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2731
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2735
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2776
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2780
 msgid "Clone"
 msgstr "Sao chép"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4800
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4908
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:173
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:179
 msgid "Close"
@@ -2116,7 +2121,7 @@ msgstr "Tính toán checksum đầu ra (tùy chọn)."
 msgid "Config File"
 msgstr "Tệp cấu hình"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4783
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4891
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:456
 #, fuzzy
 msgid "Configuration"
@@ -2126,11 +2131,11 @@ msgstr "Cấu hình"
 msgid "Configuration Export"
 msgstr "Xuất Cấu hình"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4972
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5080
 msgid "Configuration changes applied."
 msgstr "Cấu hình đã được áp dụng."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4910
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5018
 msgid "Configuration changes have been rolled back!"
 msgstr "Cấu hình đã được hoàn lại!"
 
@@ -2234,7 +2239,7 @@ msgstr "Mất kết nối"
 msgid "Connections"
 msgstr "Kết nối"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5046
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5154
 msgid "Connectivity change"
 msgstr "Thay đổi kết nối"
 
@@ -2282,7 +2287,7 @@ msgid ""
 "title=\"Router Advertisement\">RA</abbr> messages."
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4946
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5054
 msgid ""
 "Could not regain access to the device after applying the configuration "
 "changes. You might need to reconnect if you modified network related "
@@ -2308,10 +2313,18 @@ msgstr "Mã quốc gia"
 msgid "Coverage cell density"
 msgstr "Mật độ ô phủ của cell"
 
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3326
+msgid "Create"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:575
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2283
 msgid "Create / Assign firewall-zone"
 msgstr "Tạo/ gán firewall-zone"
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3117
+msgid "Create Directory"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1302
 msgid "Create interface"
@@ -2349,8 +2362,8 @@ msgctxt "nft meta day"
 msgid "Current weekday"
 msgstr "Ngày trong tuần hiện tại"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:600
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:602
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:608
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:610
 #: modules/luci-compat/luasrc/view/cbi/network_ifacelist.htm:51
 #: modules/luci-compat/luasrc/view/cbi/network_ifacelist.htm:53
 #: modules/luci-compat/luasrc/view/cbi/network_ifacelist.htm:82
@@ -2622,25 +2635,25 @@ msgstr "Độ trễ trước khi kích hoạt cổng sau sự kiện MII link up
 msgid "Delegate IPv6 prefixes"
 msgstr "Uỷ nhiệm các tiền tố IPv6"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2319
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2744
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2748
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3585
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3192
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2343
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2789
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2793
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3675
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3295
 #: modules/luci-compat/luasrc/view/cbi/nsection.htm:11
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:162
 #: modules/luci-compat/luasrc/view/cbi/tsection.htm:16
 msgid "Delete"
 msgstr "Xoá"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:101
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:115
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:105
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:119
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:205
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:211
 msgid "Delete key"
 msgstr "Xóa chìa khóa"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3090
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3186
 msgid "Delete request failed: %s"
 msgstr "Yêu cầu xóa thất bại: %s"
 
@@ -2661,7 +2674,7 @@ msgstr "Chu kỳ thông báo chỉ thị lưu thông"
 msgid "Description"
 msgstr "Mô tả"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3184
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3287
 msgid "Deselect"
 msgstr "Bỏ chọn"
 
@@ -2699,13 +2712,13 @@ msgctxt "nft ip dport"
 msgid "Destination port"
 msgstr "Cổng đến"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:68
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:174
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:75
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:182
 msgid "Destination zone"
 msgstr "Vùng điểm đến"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:76
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:201
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:83
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:209
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:43
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:46
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:83
@@ -2757,7 +2770,7 @@ msgstr "Thiết bị không có mặt"
 msgid "Device type"
 msgstr "Loại thiết bị"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4945
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5053
 msgid "Device unreachable!"
 msgstr "Thiết bị không thể truy cập!"
 
@@ -2794,9 +2807,17 @@ msgstr ""
 msgid "Dir"
 msgstr "Thư mục"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2989
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3033
 msgid "Directory"
 msgstr "Thư mục"
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3076
+msgid "Directory name"
+msgstr ""
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3086
+msgid "Directory name cannot be empty."
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1643
 msgid ""
@@ -2906,11 +2927,11 @@ msgid "Disk space"
 msgstr "Dung lượng đĩa"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:614
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3030
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3266
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3280
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4000
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4916
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3090
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3344
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3358
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4108
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5024
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1994
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:360
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:45
@@ -3014,11 +3035,11 @@ msgctxt "nft notrack action"
 msgid "Do not track"
 msgstr "Không theo dõi"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3076
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3172
 msgid "Do you really want to delete \"%s\" ?"
 msgstr "Bạn thật sự muốn xóa \"%s\" ?"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3074
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3170
 msgid "Do you really want to delete the \"%s\" directory recursively?"
 msgstr "Bạn thật sự muốn xóa toàn bộ thư mục \"%s\" ?"
 
@@ -3054,7 +3075,7 @@ msgstr "Không phân mảnh"
 msgid "Down"
 msgstr "Xuống"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3188
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3291
 msgid "Download"
 msgstr "Tải xuống"
 
@@ -3062,7 +3083,7 @@ msgstr "Tải xuống"
 msgid "Download backup"
 msgstr "Tải xuống bản sao lưu"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3264
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3372
 msgid "Download failed: %s"
 msgstr "Tải xuống thất bại: %s"
 
@@ -3082,7 +3103,7 @@ msgstr ""
 "Kéo hoặc dán tệp <em>*.conf</em> hợp lệ bên dưới để định cấu hình giao diện "
 "WireGuard cục bộ."
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2689
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2721
 msgid "Drag to reorder"
 msgstr "Kéo để tổ chức lại"
 
@@ -3215,12 +3236,12 @@ msgstr "EAP-Method"
 msgid "Each STA is assigned its own AP_VLAN interface."
 msgstr "Mỗi STA được gán một giao diện AP_VLAN riêng của nó."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:280
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:284
 #, fuzzy
 msgid "Each key is stored as a file in <code>%s</code>."
 msgstr "Mỗi khóa được lưu trữ dưới dạng tệp trong <code>%s</code>."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:278
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:282
 #, fuzzy
 msgid ""
 "Each software repository public key (from official or third party "
@@ -3231,9 +3252,9 @@ msgstr ""
 "của bên thứ ba) cho phép trình quản lý gói cài đặt các gói trong danh sách "
 "do kho lưu trữ đó ký."
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2709
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2712
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3446
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2754
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2757
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3524
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:154
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:160
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:481
@@ -3662,6 +3683,7 @@ msgstr "Nhập nhiều giá trị tùy chỉnh"
 msgid "Erasing..."
 msgstr "Xóa..."
 
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3099
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:93
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/dmesg.js:25
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:48
@@ -3761,7 +3783,7 @@ msgstr ""
 msgid "Expecting two priority values separated by a colon"
 msgstr "Đang mong đợi hai giá trị ưu tiên phân cách bằng dấu hai chấm"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2277
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2300
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:77
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:143
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:149
@@ -3900,13 +3922,17 @@ msgstr "Đổi mật khẩu hệ thống thất bại."
 msgid "Failed to configure modem"
 msgstr "Không thể cấu hình modem"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4904
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5012
 msgid "Failed to confirm apply within %ds, waiting for rollback…"
 msgstr "Không thể xác nhận áp dụng trong %ds, đang chờ quay lại…"
 
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:22
 msgid "Failed to connect"
 msgstr "Không kết nối được"
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3099
+msgid "Failed to create directory: %s"
+msgstr ""
 
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:23
 msgid "Failed to disconnect"
@@ -3916,8 +3942,8 @@ msgstr "Không thể ngắt kết nối"
 msgid "Failed to execute \"/etc/init.d/%s %s\" action: %s"
 msgstr "Thất bại khi thực thi \"/etc/init.d/%s %s\" hành động: %s"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:150
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:178
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:154
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:182
 msgid "Failed to fetch key"
 msgstr ""
 
@@ -3943,19 +3969,19 @@ msgstr "Sự thất bại"
 msgid "Fast (every second)"
 msgstr "Nhanh (mỗi giây)"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:166
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:170
 msgid "Fetched content seems empty or too short."
 msgstr ""
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:159
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:163
 msgid "Fetched content seems too long. Maximum 8192 bytes."
 msgstr ""
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:146
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:150
 msgid "Fetching key from URL…"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2997
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3041
 msgid "File"
 msgstr "Tệp"
 
@@ -3967,7 +3993,7 @@ msgstr ""
 "Tệp liệt kê các trình phân giải ngược dòng, tùy chọn dành riêng cho miền, ví "
 "dụ: {servers_file_entry01}, {servers_file_entry02}."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2934
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2978
 msgid "File not accessible"
 msgstr "Tệp tin không thể truy cập"
 
@@ -3981,7 +4007,7 @@ msgstr ""
 msgid "File with upstream resolvers."
 msgstr "Tập tin <abbr title=\"Hệ thống tên miền\">DNS</abbr> địa phương."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3132
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3228
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:883
 msgid "Filename"
 msgstr "Tên tệp tin"
@@ -4351,7 +4377,7 @@ msgstr "Cổng ra"
 msgid "Gateway Mode"
 msgstr "Chế độ Gateway"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:38
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:46
 msgid "Gateway Ports"
 msgstr "Cổng Gateway"
 
@@ -4450,8 +4476,8 @@ msgstr "Chuyển đến nâng cấp firmware..."
 msgid "Go to password configuration..."
 msgstr "Tới trang cài đặt mật khẩu..."
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2631
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3767
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2663
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3858
 #: modules/luci-compat/luasrc/view/cbi/full_valueheader.htm:4
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:58
 msgid "Go to relevant configuration page"
@@ -4598,7 +4624,7 @@ msgstr "Mật khẩu HE.net"
 msgid "HE.net username"
 msgstr "Tên người dùng HE.net"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:151
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:155
 msgid "HTTP error %d"
 msgstr ""
 
@@ -5474,7 +5500,8 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:45
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:190
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:216
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:20
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:23
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:27
 msgid "Interface"
 msgstr "Giao diện"
 
@@ -5643,11 +5670,11 @@ msgstr "Giá trị không hợp lệ"
 msgid "Invalid hostname or IPv4 address"
 msgstr "Tên máy chủ hoặc địa chỉ IPv4 không hợp lệ"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:189
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:193
 msgid "Invalid key format"
 msgstr ""
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:165
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:169
 msgid "Invalid or empty key file"
 msgstr ""
 
@@ -5767,7 +5794,7 @@ msgstr "Key"
 msgid "Key #%d"
 msgstr "Phím %d"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:158
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:162
 msgid "Key file too large"
 msgstr ""
 
@@ -5973,7 +6000,7 @@ msgstr ""
 msgid "Legacy rules detected"
 msgstr "Phát hiện các quy tắc cũ"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4785
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4893
 msgid "Legend:"
 msgstr "Chú giải:"
 
@@ -6077,7 +6104,13 @@ msgstr ""
 msgid "Listen interfaces"
 msgstr "Lắng nghe giao diện mạng"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:20
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:27
+msgid ""
+"Listen on up to 10 IPs on the given interface or, if unspecified, on all "
+"interfaces"
+msgstr ""
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:23
 msgid "Listen only on the given interface or, if unspecified, on all"
 msgstr "Chỉ nghe giao diện mạng đã cho (nếu không xác định sẽ nghe tất cả)"
 
@@ -6126,7 +6159,7 @@ msgstr "Tải cấu hình…"
 msgid "Loading data…"
 msgstr "Đang tải dữ liệu…"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3274
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3382
 msgid "Loading directory contents…"
 msgstr "Đang tải nội dung thư mục…"
 
@@ -6292,7 +6325,7 @@ msgstr "Thiết bị ghi nhật ký"
 msgid "Log in"
 msgstr "Đăng nhập"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2629
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2627
 msgid "Log in…"
 msgstr "Đến phần đăng nhập…"
 
@@ -6826,7 +6859,7 @@ msgstr "Độ trễ khi liên kết giám sát được kết nối"
 msgid "More Characters"
 msgstr "Thêm đặc điểm"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2572
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2604
 msgid "More…"
 msgstr "Thêm…"
 
@@ -6969,8 +7002,8 @@ msgstr "Máy chủ NTP"
 msgid "NTP server candidates"
 msgstr "Ứng cử viên máy chủ NTP"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2609
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4538
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2641
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4646
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:27
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:95
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1229
@@ -7150,7 +7183,7 @@ msgstr "Tin tức"
 msgid "Next »"
 msgstr "Tiếp »"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:4389
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4460
 msgid "No"
 msgstr "Không"
 
@@ -7205,7 +7238,7 @@ msgstr "Không có khách hàng kết nối"
 msgid "No control device specified"
 msgstr "Không chỉ định thiết bị kiểm soát"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3512
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3620
 msgctxt "empty table placeholder"
 msgid "No data"
 msgstr "Không có dữ liệu"
@@ -7228,7 +7261,7 @@ msgstr "Không áp dụng"
 msgid "No entries available"
 msgstr "Không có mục nào"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3198
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3301
 msgid "No entries in this directory"
 msgstr "Không có gì trong đường dẫn này"
 
@@ -7305,7 +7338,7 @@ msgstr "Không có luật nào trong chuỗi này"
 msgid "No rules in this chain."
 msgstr "Không có quy luật trong chuỗi này."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:85
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:89
 msgid "No software repository public keys present yet."
 msgstr ""
 
@@ -7474,6 +7507,10 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:799
 msgid "Number of seconds between sent learning packets"
 msgstr "Số giây giữa các gói tin học được gửi đi"
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3104
+msgid "OK"
+msgstr ""
 
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:69
 msgid "Obfuscated Group Password"
@@ -7658,7 +7695,7 @@ msgid "Operator Name"
 msgstr "Tên nhà điều hành"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2014
-#: modules/luci-base/htdocs/luci-static/resources/form.js:4402
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4473
 msgid "Option \"%s\" contains an invalid input value."
 msgstr "Tùy chọn \"%s\" chứa một giá trị đầu vào không hợp lệ."
 
@@ -7666,11 +7703,11 @@ msgstr "Tùy chọn \"%s\" chứa một giá trị đầu vào không hợp lệ
 msgid "Option \"%s\" must not be empty."
 msgstr "Tùy chọn \"%s\" không được để trống."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4792
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4900
 msgid "Option changed"
 msgstr "Thay đổi tùy chỉnh"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4794
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4902
 msgid "Option removed"
 msgstr "Xóa tùy chỉnh"
 
@@ -7866,8 +7903,8 @@ msgstr "Truyền thông gửi đi"
 msgid "Output Interface"
 msgstr "Giao diện đầu ra"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:68
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:174
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:75
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:182
 msgid "Output zone"
 msgstr "Vùng đầu ra"
 
@@ -7953,7 +7990,7 @@ msgstr "Ghi đè bảng được sử dụng cho định tuyến nội bộ"
 msgid "Overview"
 msgstr "Tổng quan"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3042
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3138
 msgid "Overwrite existing file \"%s\" ?"
 msgstr "Ghi đè tệp đã tồn tại \"%s\" ?"
 
@@ -8148,7 +8185,7 @@ msgstr "Chuyển tiếp (Sao chép thiết bị vật lý thành một MAC VLAN 
 msgid "Password"
 msgstr "Mật khẩu"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:27
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:35
 msgid "Password authentication"
 msgstr "Xác thực mật mã"
 
@@ -8171,7 +8208,7 @@ msgstr "Độ mạnh mật mã"
 msgid "Password2"
 msgstr "Mật mã 2"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:259
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:263
 msgid ""
 "Paste content of a file, or a URL to a key file, or drag and drop here to "
 "upload a software repository public key…"
@@ -8195,7 +8232,7 @@ msgstr ""
 "hệ thống khác phía dưới để tạo một mục đồng nghiệp phù hợp cho phép hệ thống "
 "đó kết nối với giao diện WireGuard cục bộ."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:255
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:259
 msgid "Paste or drag repository public key"
 msgstr ""
 
@@ -8227,7 +8264,7 @@ msgstr "Đường dẫn tới chứng chỉ nội bộ của máy khách"
 msgid "Path to inner Private Key"
 msgstr "Đường dẫn tới khoá riêng tư nội bộ"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2678
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2676
 msgid "Paused"
 msgstr "Tạm dừng"
 
@@ -8360,7 +8397,7 @@ msgstr "Pkts."
 msgid "Please enter your username and password."
 msgstr "Nhập tên và mật mã."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4521
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4629
 msgid "Please select the file to upload."
 msgstr "Vui lòng chọn tệp để tải lên."
 
@@ -8374,7 +8411,7 @@ msgid "Policy: <strong>%h</strong> (%h)"
 msgstr "Chính sách: <strong>%h</strong> (%h)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:965
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:23
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:31
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:223
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:223
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:294
@@ -8778,7 +8815,7 @@ msgstr ""
 msgid "Read {etc_ethers} to configure the DHCP server."
 msgstr "Đọc {etc_ethers} để định cấu hình máy chủ DHCP."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:102
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:106
 msgid "Really delete the following software repository public key?"
 msgstr ""
 
@@ -8876,7 +8913,7 @@ msgstr "Tham khảo"
 msgid "Refresh Channels"
 msgstr "Làm mới các kênh"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2672
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2670
 msgid "Refreshing"
 msgstr "Đang làm mới"
 
@@ -9053,7 +9090,7 @@ msgstr ""
 msgid "Repo Public Keys"
 msgstr ""
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:276
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:280
 msgid "Repository Public Keys"
 msgstr ""
 
@@ -9186,7 +9223,7 @@ msgstr "Yêu cầu wpa-supplicant với SAE hỗ trợ"
 msgid "Requires wpa-supplicant with WEP support"
 msgstr "Yêu cầu wpa-supplicant hỗ trợ WEP"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2156
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2154
 #: modules/luci-base/ucode/template/sysauth.ut:39
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:17
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:30
@@ -9270,19 +9307,19 @@ msgstr "Bộ lọc đường dẫn ngược"
 msgid "Reverse sort"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4814
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4922
 msgid "Revert"
 msgstr "Hoàn nguyên"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4920
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5028
 msgid "Revert changes"
 msgstr "Hoàn nguyên thay đổi"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5131
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5239
 msgid "Revert request failed with status <code>%h</code>"
 msgstr "Yêu cầu hoàn nguyên không thành công với trạng thái <code>%h</code>"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5111
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5219
 msgid "Reverting configuration…"
 msgstr "Đang hoàn nguyên cấu hình .."
 
@@ -9468,7 +9505,7 @@ msgid ""
 "address or interface."
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2318
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2316
 msgid "Runtime error"
 msgstr "Lỗi"
 
@@ -9544,8 +9581,8 @@ msgstr "Máy chủ SSTP"
 msgid "SWAP"
 msgstr "SWAP"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3285
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2151
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3363
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2149
 #: modules/luci-compat/luasrc/view/cbi/error.htm:17
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:26
 #: modules/luci-compat/luasrc/view/cbi/header.htm:20
@@ -9554,8 +9591,8 @@ msgstr "SWAP"
 msgid "Save"
 msgstr "Lưu"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2133
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4802
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2131
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4910
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:22
 msgid "Save & Apply"
 msgstr "Lưu & áp dụng"
@@ -9606,11 +9643,11 @@ msgstr ""
 msgid "Section %s is empty."
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4788
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4896
 msgid "Section added"
 msgstr "Thêm mục"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4790
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4898
 msgid "Section removed"
 msgstr "Xóa mục"
 
@@ -9620,6 +9657,10 @@ msgstr "Xem hướng dẫn \"lắp\" để biết chi tiết"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:851
 msgid "See %s and %s."
+msgstr ""
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3283
+msgid "Select"
 msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:285
@@ -9632,9 +9673,15 @@ msgstr ""
 "phần mềm không thành công. Chỉ chọn nếu bạn có thể chắc chắc rằng phần mềm "
 "này tương thích với thiết bị của bạn!"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2936
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3083
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3247
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2980
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3179
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3355
+msgid "Select directory…"
+msgstr ""
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2980
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3179
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3355
 msgid "Select file…"
 msgstr "Chọn tệp…"
 
@@ -9695,7 +9742,7 @@ msgstr "Kiểu dịch vụ"
 msgid "Services"
 msgstr "Các dịch vụ"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2619
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2617
 msgid "Session expired"
 msgstr "Phiên hết hạn"
 
@@ -9850,7 +9897,7 @@ msgstr "Tốc độ làm mới tín hiệu"
 msgid "Signal:"
 msgstr "Tín hiệu:"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4539
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4647
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:224
 msgid "Size"
 msgstr "Dung lượng"
@@ -10226,7 +10273,7 @@ msgstr "Bắt đầu ưu tiên"
 msgid "Start refresh"
 msgstr "Bắt đầu làm mới"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5035
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5143
 msgid "Starting configuration apply…"
 msgstr "Đang áp dụng cáu hình…"
 
@@ -10392,7 +10439,7 @@ msgstr "Đổi giao thức"
 msgid "Switch to CIDR list notation"
 msgstr "Chuyển sang ký hiệu danh sách CIDR"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2981
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3025
 msgid "Symbolic link"
 msgstr "Đường dẫn tham chiếu"
 
@@ -10751,7 +10798,7 @@ msgstr ""
 msgid "The default (%s) is zero for both IPv4 and IPv6."
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4911
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5019
 msgid ""
 "The device could not be reached within %d seconds after applying the pending "
 "changes, which caused the configuration to be rolled back for safety "
@@ -10837,7 +10884,7 @@ msgstr ""
 "Khóa công khai SSH đã cho không hợp lệ. Vui lòng cung cấp khóa RSA hoặc "
 "ECDSA công khai thích hợp."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:201
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:205
 msgid "The given software repository public key is already present."
 msgstr ""
 
@@ -11119,7 +11166,7 @@ msgstr ""
 msgid "There are no active leases"
 msgstr "Không có máy được cấp IP nào hoạt động"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5078
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5186
 msgid "There are no changes to apply"
 msgstr "Không có thay đổi nào để áp dụng"
 
@@ -11230,13 +11277,13 @@ msgid ""
 msgstr ""
 "Đây thường là địa chỉ của trạm PoP gần nhất do người môi giới tunnel vận hành"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:129
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:133
 msgid ""
 "This key appears to be in PEM format, which is not supported in an opkg "
 "environment."
 msgstr ""
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:131
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:135
 msgid ""
 "This key does not appear to be in PEM format, which is required in an apk "
 "environment."
@@ -11282,7 +11329,7 @@ msgstr "Tiền tố này được tạo ngẫu nhiên khi cài đặt lần đ�
 msgid "This prevents unreachable IPs in subnets not accessible to you."
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2288
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2311
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:172
 #: modules/luci-compat/luasrc/view/cbi/tsection.htm:32
 msgid "This section contains no values yet"
@@ -11713,12 +11760,12 @@ msgctxt "Dnsmasq instance"
 msgid "Unnamed instance #%d"
 msgstr "Chưa có tên #%d"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:71
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:75
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:121
 msgid "Unnamed key"
 msgstr "Khóa không tên"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4727
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4835
 msgid "Unsaved Changes"
 msgstr "Thay đổi không lưu"
 
@@ -11762,7 +11809,7 @@ msgstr "Người đồng nghiệp chưa có tiêu đề"
 msgid "Up"
 msgstr "Lên"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4613
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4721
 msgid "Upload"
 msgstr "Tải lên"
 
@@ -11779,25 +11826,25 @@ msgstr ""
 msgid "Upload archive..."
 msgstr "Tải dữ liệu lên ..."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3137
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3233
 msgid "Upload file"
 msgstr "Tải tập tin lên"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3112
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3208
 msgid "Upload file…"
 msgstr "Tải tệp lên…"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4559
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4667
 msgid "Upload has been cancelled"
 msgstr "Đã hủy tải lên"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3059
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4601
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3155
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4709
 msgid "Upload request failed: %s"
 msgstr "Yêu cầu tải thất bại: %s"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4520
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4574
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4628
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4682
 msgid "Uploading file…"
 msgstr "Đang tải tệp lên …"
 
@@ -12443,7 +12490,7 @@ msgstr "Viết yêu cầu DNS nhận được vào nhật ký hệ thống."
 msgid "Write system log to file"
 msgstr "Viết nhật ký hệ thống vào một tệp"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:4389
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4460
 msgid "Yes"
 msgstr "Có"
 
@@ -12571,8 +12618,8 @@ msgstr ""
 msgid "bridged"
 msgstr "cầu nối"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:155
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:419
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:163
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:427
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:35
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:99
 #: modules/luci-compat/luasrc/view/cbi/network_netlist.htm:31
@@ -12709,8 +12756,8 @@ msgstr ""
 msgid "forced"
 msgstr "ép buộc"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:94
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:205
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:101
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:213
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:61
 msgid "forward"
 msgstr "Chuyển tiếp"
@@ -12759,8 +12806,8 @@ msgstr ""
 msgid "infinite (lease does not expire)"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:78
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:201
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:85
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:209
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:46
 msgid "input"
 msgstr "đầu vào"
@@ -12830,12 +12877,12 @@ msgstr "Không có liên kết"
 msgid "no override"
 msgstr "không ghi đè"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2277
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2300
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:72
 msgid "non-empty value"
 msgstr "Giá trị không rỗng"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3436
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3514
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:851
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:832
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:166
@@ -12878,7 +12925,7 @@ msgstr "Mở mạng"
 msgid "other config (O)"
 msgstr "cấu hình khác (O)"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:78
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:85
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:46
 msgid "output"
 msgstr "đầu ra"
@@ -13011,14 +13058,14 @@ msgstr "phiên bản không xác định"
 msgid "unlimited"
 msgstr "không giới hạn"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3806
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:85
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:147
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:383
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:410
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:446
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:483
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:593
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3897
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:92
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:154
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:391
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:418
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:454
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:491
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:601
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:53
 #: modules/luci-compat/luasrc/view/cbi/network_netlist.htm:38
 msgid "unspecified"

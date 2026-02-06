@@ -28,7 +28,7 @@ msgstr "%.1f ديسيبل"
 msgid "%d Bit"
 msgstr "%d بت"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4442
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4550
 msgid "%d invalid field(s)"
 msgstr "%d حقل غير صحيح"
 
@@ -105,16 +105,16 @@ msgstr "(إطار %d دقيقة ، فاصل زمني %d ثانية)"
 msgid "(Max 1h == 3600)"
 msgstr "(الحد الأقصى ساعة واحدة == 3600)"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:127
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:133
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:269
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:293
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:134
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:140
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:277
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:301
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:88
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:91
 msgid "(empty)"
 msgstr "(فارغ)"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:365
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:373
 #: modules/luci-compat/luasrc/view/cbi/network_netinfo.htm:23
 #: modules/luci-compat/luasrc/view/cbi/network_netlist.htm:58
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/29_ports.js:275
@@ -131,8 +131,8 @@ msgid "-- Additional Field --"
 msgstr "--ميدانية إضافية --"
 
 #: modules/luci-base/htdocs/luci-static/resources/cbi.js:275
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3806
-#: modules/luci-base/htdocs/luci-static/resources/form.js:4453
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3897
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4524
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:804
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:1042
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:2064
@@ -477,11 +477,11 @@ msgid ""
 msgstr ""
 "تم تعيين MTU افتراضي لـ 65535 بواسطة Yggdrasil. يوصى باستخدام الافتراضي."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3041
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3137
 msgid "A directory with the same name already exists."
 msgstr "يوجد دليل بنفس الاسم."
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2621
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2619
 msgid "A new login is required since the authentication session expired."
 msgstr "يجب الدخول مجدداً لئن صلاحية جلسة قد انتهت."
 
@@ -655,9 +655,9 @@ msgstr ""
 msgid "ATM device number"
 msgstr "رقم جهاز ATM"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:276
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:575
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:579
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:284
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:583
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:587
 msgid "Absent Interface"
 msgstr "واجهة غائبة"
 
@@ -764,11 +764,11 @@ msgstr ""
 msgid "Adaptive transmit load balancing"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2241
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2244
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2257
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2265
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3601
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2264
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2267
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2280
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2288
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3692
 #: modules/luci-compat/luasrc/view/cbi/nsection.htm:25
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:189
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:197
@@ -817,8 +817,8 @@ msgstr "إضافة إعداد الجهاز…"
 msgid "Add instance"
 msgstr "إضافة مثيل"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:200
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:267
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:204
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:271
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:171
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:177
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:274
@@ -1044,7 +1044,7 @@ msgstr "تخصيص IP بالتسلسل"
 msgid "Allocate listen addresses"
 msgstr "تخصيص عناوين الاستماع"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:27
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:35
 msgid "Allow <abbr title=\"Secure Shell\">SSH</abbr> password authentication"
 msgstr "السماح بمصادقة كلمة المرور <abbr title=\"Secure Shell\">SSH</abbr>"
 
@@ -1088,11 +1088,11 @@ msgstr "السماح بإعادة تشغيل الجهاز"
 msgid "Allow receiving on inactive ports"
 msgstr ""
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:38
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:46
 msgid "Allow remote hosts to connect to local SSH forwarded ports"
 msgstr "السماح للأجهزة البعيدة بالاتصال بمنافذ SSH المحلية"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:33
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:41
 msgid "Allow root logins with password"
 msgstr "السماح بتسجيل الدخول إلى root بكلمة مرور"
 
@@ -1100,7 +1100,7 @@ msgstr "السماح بتسجيل الدخول إلى root بكلمة مرور"
 msgid "Allow system feature probing"
 msgstr "السماح بفحص ميزات النظام"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:33
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:41
 msgid "Allow the <em>root</em> user to log in with password"
 msgstr "اسمح للمستخدم <em>الجذر</em> بتسجيل الدخول باستخدام كلمة المرور"
 
@@ -1238,9 +1238,9 @@ msgctxt "nft match any traffic"
 msgid "Any packet"
 msgstr "أي حزمة"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:93
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:183
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:205
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:100
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:191
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:213
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:60
 msgid "Any zone"
 msgstr "أي منطقة"
@@ -1249,22 +1249,22 @@ msgstr "أي منطقة"
 msgid "Apply backup?"
 msgstr "تطبيق النسخ الاحتياطي؟"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5086
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5194
 msgid "Apply request failed with status <code>%h</code>"
 msgstr "فشل تطبيق الطلب بالحالة <code> h% </code>"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2134
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4803
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4924
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5060
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2132
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4911
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5032
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5168
 msgid "Apply unchecked"
 msgstr "تطبيق ملحوظ"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5056
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5164
 msgid "Apply, reverting in case of connectivity loss"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4997
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5105
 msgid "Applying configuration changes… %ds"
 msgstr "جاري تطبيق تغييرات التكوين ... %ds"
 
@@ -1603,6 +1603,10 @@ msgstr ""
 msgid "Bind the tunnel to this interface (optional)."
 msgstr "اربط النفق بهذه الواجهة (اختياري)."
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:20
+msgid "Bind to Interface"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:119
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:180
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:172
@@ -1679,8 +1683,8 @@ msgstr "ارفع واجهة الجسر حتى لو لم يتم توصيل أي �
 msgid "Broadcast"
 msgstr "بث"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3131
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4552
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3227
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4660
 msgid "Browse…"
 msgstr "تصفح…"
 
@@ -1753,9 +1757,10 @@ msgstr ""
 "يمكن أن يكون مفيدًا إذا كان مزود خدمة الإنترنت لديه خوادم أسماء IPv6 ولكنه لا "
 "يوفر توجيه IPv6."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3223
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4561
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5052
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3110
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3331
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4669
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5160
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:14
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:52
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:174
@@ -1763,7 +1768,7 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2293
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:128
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:297
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:105
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:109
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:209
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:472
 msgid "Cancel"
@@ -1883,18 +1888,18 @@ msgctxt "Yet unknown nftables chain hook"
 msgid "Chain hook \"%h\""
 msgstr "خطاف السلسلة \"% h \""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4783
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4891
 msgid "Changes"
 msgstr "التغييرات"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5047
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5155
 msgid ""
 "Changes have been made to the existing connection via \"%h\". This could "
 "inhibit access to this device. Any IP change requires <strong>connecting to "
 "the new IP</strong> within %d seconds to retain the changes."
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5122
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5230
 msgid "Changes have been reverted."
 msgstr "تم التراجع عن التغييرات."
 
@@ -1996,12 +2001,12 @@ msgstr "العميل"
 msgid "Client ID to send when requesting DHCP"
 msgstr "معرّف العميل لإرساله عند طلب DHCP"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2731
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2735
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2776
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2780
 msgid "Clone"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4800
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4908
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:173
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:179
 msgid "Close"
@@ -2076,7 +2081,7 @@ msgstr "حساب المجموع الاختباري الصادر (اختياري)
 msgid "Config File"
 msgstr "ملف التكوين"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4783
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4891
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:456
 msgid "Configuration"
 msgstr "التكوين"
@@ -2085,11 +2090,11 @@ msgstr "التكوين"
 msgid "Configuration Export"
 msgstr "تصدير التكوين"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4972
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5080
 msgid "Configuration changes applied."
 msgstr "تم تطبيق تغييرات التكوين."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4910
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5018
 msgid "Configuration changes have been rolled back!"
 msgstr "تم التراجع عن تغييرات التكوين!"
 
@@ -2192,7 +2197,7 @@ msgstr "انقطع الاتصال"
 msgid "Connections"
 msgstr "روابط"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5046
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5154
 msgid "Connectivity change"
 msgstr "تغيير الاتصال"
 
@@ -2240,7 +2245,7 @@ msgid ""
 "title=\"Router Advertisement\">RA</abbr> messages."
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4946
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5054
 msgid ""
 "Could not regain access to the device after applying the configuration "
 "changes. You might need to reconnect if you modified network related "
@@ -2266,10 +2271,18 @@ msgstr "الرقم الدولي"
 msgid "Coverage cell density"
 msgstr "كثافة خلايا التغطية"
 
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3326
+msgid "Create"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:575
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2283
 msgid "Create / Assign firewall-zone"
 msgstr "إنشاء / تعيين منطقة جدار الحماية"
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3117
+msgid "Create Directory"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1302
 msgid "Create interface"
@@ -2307,8 +2320,8 @@ msgctxt "nft meta day"
 msgid "Current weekday"
 msgstr "يوم العمل الحالي"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:600
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:602
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:608
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:610
 #: modules/luci-compat/luasrc/view/cbi/network_ifacelist.htm:51
 #: modules/luci-compat/luasrc/view/cbi/network_ifacelist.htm:53
 #: modules/luci-compat/luasrc/view/cbi/network_ifacelist.htm:82
@@ -2577,25 +2590,25 @@ msgstr ""
 msgid "Delegate IPv6 prefixes"
 msgstr "بادئات IPv6 المفوضة"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2319
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2744
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2748
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3585
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3192
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2343
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2789
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2793
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3675
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3295
 #: modules/luci-compat/luasrc/view/cbi/nsection.htm:11
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:162
 #: modules/luci-compat/luasrc/view/cbi/tsection.htm:16
 msgid "Delete"
 msgstr "احدف"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:101
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:115
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:105
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:119
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:205
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:211
 msgid "Delete key"
 msgstr "احدف المفتاح"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3090
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3186
 msgid "Delete request failed: %s"
 msgstr "فشل طلب الحذف: %s"
 
@@ -2616,7 +2629,7 @@ msgstr "الفاصل الزمني لرسالة إشارة حركة التسلي�
 msgid "Description"
 msgstr "الوصف"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3184
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3287
 msgid "Deselect"
 msgstr "إلغاء"
 
@@ -2654,13 +2667,13 @@ msgctxt "nft ip dport"
 msgid "Destination port"
 msgstr "ميناء الوجهة"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:68
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:174
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:75
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:182
 msgid "Destination zone"
 msgstr "منطقة الوجهة"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:76
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:201
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:83
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:209
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:43
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:46
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:83
@@ -2712,7 +2725,7 @@ msgstr "الجهاز غير موجود"
 msgid "Device type"
 msgstr "نوع الجهاز"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4945
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5053
 msgid "Device unreachable!"
 msgstr "الجهاز لا يمكن الوصول إليه!"
 
@@ -2749,9 +2762,17 @@ msgstr ""
 msgid "Dir"
 msgstr "مسار"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2989
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3033
 msgid "Directory"
 msgstr "الدليل"
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3076
+msgid "Directory name"
+msgstr ""
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3086
+msgid "Directory name cannot be empty."
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1643
 msgid ""
@@ -2860,11 +2881,11 @@ msgid "Disk space"
 msgstr "مساحة القرص"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:614
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3030
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3266
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3280
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4000
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4916
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3090
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3344
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3358
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4108
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5024
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1994
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:360
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:45
@@ -2967,11 +2988,11 @@ msgctxt "nft notrack action"
 msgid "Do not track"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3076
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3172
 msgid "Do you really want to delete \"%s\" ?"
 msgstr "هل تريد حقًا حذف \" %s\"؟"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3074
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3170
 msgid "Do you really want to delete the \"%s\" directory recursively?"
 msgstr "هل تريد حقًا حذف الدليل \" s%\" بشكل متكرر؟"
 
@@ -3007,7 +3028,7 @@ msgstr "لا تجزئ"
 msgid "Down"
 msgstr "أسفل"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3188
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3291
 msgid "Download"
 msgstr "تحميل"
 
@@ -3015,7 +3036,7 @@ msgstr "تحميل"
 msgid "Download backup"
 msgstr "تنزيل نسخة احتياطية"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3264
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3372
 msgid "Download failed: %s"
 msgstr "فشل التنزيل: %s"
 
@@ -3034,7 +3055,7 @@ msgid ""
 msgstr ""
 "قم بسحب أو لصق ملف <em>*.conf</em> صالح أدناه لتكوين واجهة WireGuard المحلية."
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2689
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2721
 msgid "Drag to reorder"
 msgstr "اسحب لإعادة ترتيب"
 
@@ -3168,20 +3189,20 @@ msgstr "طريقة EAP"
 msgid "Each STA is assigned its own AP_VLAN interface."
 msgstr "يتم تعيين واجهة AP_VLAN الخاصة بكل STA."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:280
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:284
 msgid "Each key is stored as a file in <code>%s</code>."
 msgstr ""
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:278
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:282
 msgid ""
 "Each software repository public key (from official or third party "
 "repositories) allows packages in lists signed by it to be installed by the "
 "package manager."
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2709
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2712
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3446
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2754
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2757
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3524
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:154
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:160
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:481
@@ -3601,6 +3622,7 @@ msgstr "أدخل القيم المخصصة"
 msgid "Erasing..."
 msgstr "محو ..."
 
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3099
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:93
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/dmesg.js:25
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:48
@@ -3695,7 +3717,7 @@ msgstr "توقع عنوان MAC صالح، بما في ذلك أحرف البد�
 msgid "Expecting two priority values separated by a colon"
 msgstr "توقع قيمتين للأولوية مفصولتين بنقطتين"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2277
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2300
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:77
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:143
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:149
@@ -3825,13 +3847,17 @@ msgstr "فشل تغيير كلمة مرور النظام."
 msgid "Failed to configure modem"
 msgstr "فشل تكوين المودم"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4904
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5012
 msgid "Failed to confirm apply within %ds, waiting for rollback…"
 msgstr "فشل التأكيد على التطبيق خلال %ds ، في انتظار التراجع…"
 
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:22
 msgid "Failed to connect"
 msgstr "فشل في الاتصال"
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3099
+msgid "Failed to create directory: %s"
+msgstr ""
 
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:23
 msgid "Failed to disconnect"
@@ -3841,8 +3867,8 @@ msgstr "تعذر قطع الاتصال"
 msgid "Failed to execute \"/etc/init.d/%s %s\" action: %s"
 msgstr "فشل تنفيذ الإجراء\"%‎/etc/init.d/s% s\""
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:150
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:178
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:154
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:182
 msgid "Failed to fetch key"
 msgstr ""
 
@@ -3866,19 +3892,19 @@ msgstr ""
 msgid "Fast (every second)"
 msgstr ""
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:166
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:170
 msgid "Fetched content seems empty or too short."
 msgstr ""
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:159
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:163
 msgid "Fetched content seems too long. Maximum 8192 bytes."
 msgstr ""
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:146
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:150
 msgid "Fetching key from URL…"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2997
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3041
 msgid "File"
 msgstr "ملف"
 
@@ -3891,7 +3917,7 @@ msgstr ""
 "{servers_file_entry01} لخوادم <abbr title = \"Domain Name System\"> DNS </"
 "abbr> الخاصة بالمجال أو للخوادم."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2934
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2978
 msgid "File not accessible"
 msgstr "الملف لا يمكن الوصول إليه"
 
@@ -3903,7 +3929,7 @@ msgstr "ملف لتخزين معلومات تأجير DHCP."
 msgid "File with upstream resolvers."
 msgstr "ملف مع محللات المنبع."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3132
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3228
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:883
 msgid "Filename"
 msgstr "اسم الملف"
@@ -4259,7 +4285,7 @@ msgstr "بوابة"
 msgid "Gateway Mode"
 msgstr "وضع البوابة"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:38
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:46
 msgid "Gateway Ports"
 msgstr "منافذ البوابة"
 
@@ -4358,8 +4384,8 @@ msgstr "انتقل إلى ترقية البرنامج الثابت..."
 msgid "Go to password configuration..."
 msgstr "انتقل إلى تكوين كلمة المرور ..."
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2631
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3767
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2663
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3858
 #: modules/luci-compat/luasrc/view/cbi/full_valueheader.htm:4
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:58
 msgid "Go to relevant configuration page"
@@ -4506,7 +4532,7 @@ msgstr "كلمة مرور HE.net"
 msgid "HE.net username"
 msgstr "اسم مستخدم HE.net"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:151
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:155
 msgid "HTTP error %d"
 msgstr ""
 
@@ -5390,7 +5416,8 @@ msgstr "معرف بطاقة الدائرة المتكاملة"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:45
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:190
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:216
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:20
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:23
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:27
 msgid "Interface"
 msgstr "واجهه"
 
@@ -5559,11 +5586,11 @@ msgstr "قيمة سداسية عشرية غير صالحة"
 msgid "Invalid hostname or IPv4 address"
 msgstr "اسم المضيف أو عنوان IPv4 غير صالح"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:189
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:193
 msgid "Invalid key format"
 msgstr ""
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:165
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:169
 msgid "Invalid or empty key file"
 msgstr ""
 
@@ -5686,7 +5713,7 @@ msgstr "مفتاح"
 msgid "Key #%d"
 msgstr "المفتاح # d%"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:158
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:162
 msgid "Key file too large"
 msgstr ""
 
@@ -5892,7 +5919,7 @@ msgstr ""
 msgid "Legacy rules detected"
 msgstr "تم اكتشاف قواعد قديمة"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4785
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4893
 msgid "Legend:"
 msgstr "عنوان تفسيري:"
 
@@ -6001,7 +6028,13 @@ msgstr "الاستماع إلى الأقران"
 msgid "Listen interfaces"
 msgstr "واجهات الاستماع"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:20
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:27
+msgid ""
+"Listen on up to 10 IPs on the given interface or, if unspecified, on all "
+"interfaces"
+msgstr ""
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:23
 msgid "Listen only on the given interface or, if unspecified, on all"
 msgstr "استمع فقط على الواجهة المحددة أو على الكل ، إذا لم يتم تحديدها"
 
@@ -6048,7 +6081,7 @@ msgstr "تحميل التكوين…"
 msgid "Loading data…"
 msgstr "تحميل البيانات…"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3274
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3382
 msgid "Loading directory contents…"
 msgstr "تحميل محتويات الدليل …"
 
@@ -6212,7 +6245,7 @@ msgstr "مرفق السجل"
 msgid "Log in"
 msgstr "تسجيل الدخول"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2629
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2627
 msgid "Log in…"
 msgstr "لتسجيل الدخول…"
 
@@ -6738,7 +6771,7 @@ msgstr ""
 msgid "More Characters"
 msgstr "المزيد من الأحرف"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2572
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2604
 msgid "More…"
 msgstr "المزيد…"
 
@@ -6880,8 +6913,8 @@ msgstr "خوادم NTP"
 msgid "NTP server candidates"
 msgstr "المرشحين لخادم NTP"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2609
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4538
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2641
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4646
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:27
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:95
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1229
@@ -7059,7 +7092,7 @@ msgstr ""
 msgid "Next »"
 msgstr "التالي \""
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:4389
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4460
 msgid "No"
 msgstr "لا"
 
@@ -7114,7 +7147,7 @@ msgstr "لا يوجد عميل مرتبط"
 msgid "No control device specified"
 msgstr "لم يتم تحديد جهاز تحكم"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3512
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3620
 msgctxt "empty table placeholder"
 msgid "No data"
 msgstr "لا توجد بيانات"
@@ -7137,7 +7170,7 @@ msgstr "عدم الإنفاذ"
 msgid "No entries available"
 msgstr "لا توجد إدخالات متاحة"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3198
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3301
 msgid "No entries in this directory"
 msgstr "لا توجد إدخالات في هذا الدليل"
 
@@ -7214,7 +7247,7 @@ msgstr "لا توجد قواعد في هذه السلسلة"
 msgid "No rules in this chain."
 msgstr "لا توجد قواعد في هذه السلسلة."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:85
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:89
 msgid "No software repository public keys present yet."
 msgstr ""
 
@@ -7377,6 +7410,10 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:799
 msgid "Number of seconds between sent learning packets"
+msgstr ""
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3104
+msgid "OK"
 msgstr ""
 
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:69
@@ -7557,7 +7594,7 @@ msgid "Operator Name"
 msgstr "اسم المشغل"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2014
-#: modules/luci-base/htdocs/luci-static/resources/form.js:4402
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4473
 msgid "Option \"%s\" contains an invalid input value."
 msgstr "يحتوي الخيار \" s%\" على قيمة إدخال غير صالحة."
 
@@ -7565,11 +7602,11 @@ msgstr "يحتوي الخيار \" s%\" على قيمة إدخال غير صال
 msgid "Option \"%s\" must not be empty."
 msgstr "يجب ألا يكون الخيار \" s%\" فارغًا."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4792
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4900
 msgid "Option changed"
 msgstr "تغير الخيار"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4794
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4902
 msgid "Option removed"
 msgstr "تمت إزالة الخيار"
 
@@ -7759,8 +7796,8 @@ msgstr "التسلسل الصادر"
 msgid "Output Interface"
 msgstr "واجهة الإخراج"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:68
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:174
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:75
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:182
 msgid "Output zone"
 msgstr "منطقة الإخراج"
 
@@ -7846,7 +7883,7 @@ msgstr "تجاوز الجدول المستخدم للتوجيهات الداخل
 msgid "Overview"
 msgstr "نظرة عامة"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3042
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3138
 msgid "Overwrite existing file \"%s\" ?"
 msgstr "هل تريد الكتابة فوق الملف الموجود \" %s\"؟"
 
@@ -8045,7 +8082,7 @@ msgstr ""
 msgid "Password"
 msgstr "كلمة المرور"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:27
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:35
 msgid "Password authentication"
 msgstr "مصادقة كلمة المرور"
 
@@ -8068,7 +8105,7 @@ msgstr "قوة كلمة المرور"
 msgid "Password2"
 msgstr "كلمة المرور 2"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:259
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:263
 msgid ""
 "Paste content of a file, or a URL to a key file, or drag and drop here to "
 "upload a software repository public key…"
@@ -8091,7 +8128,7 @@ msgstr ""
 "الصق أو اسحب تكوين WireGuard (<em>عادةً</em> wg0.conf) من نظام آخر أدناه "
 "لإنشاء إدخال نظير مطابق يسمح لهذا النظام بالاتصال بواجهة WireGuard المحلية."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:255
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:259
 msgid "Paste or drag repository public key"
 msgstr ""
 
@@ -8123,7 +8160,7 @@ msgstr "المسار إلى شهادة العميل الداخلية"
 msgid "Path to inner Private Key"
 msgstr "المسار إلى المفتاح الخاص الداخلي"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2678
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2676
 msgid "Paused"
 msgstr "متوقف مؤقتًا"
 
@@ -8256,7 +8293,7 @@ msgstr "الحزم."
 msgid "Please enter your username and password."
 msgstr "الرجاء إدخال اسم المستخدم وكلمة المرور الخاصة بك."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4521
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4629
 msgid "Please select the file to upload."
 msgstr "الرجاء تحديد الملف المراد تحميله."
 
@@ -8270,7 +8307,7 @@ msgid "Policy: <strong>%h</strong> (%h)"
 msgstr "السياسة: <strong>%h</strong> (%h)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:965
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:23
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:31
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:223
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:223
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:294
@@ -8666,7 +8703,7 @@ msgstr ""
 msgid "Read {etc_ethers} to configure the DHCP server."
 msgstr "اقرأ {etc_ethers} لتكوين خادم DHCP."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:102
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:106
 msgid "Really delete the following software repository public key?"
 msgstr ""
 
@@ -8764,7 +8801,7 @@ msgstr "مراجع"
 msgid "Refresh Channels"
 msgstr "إنعاش القنوات"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2672
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2670
 msgid "Refreshing"
 msgstr "تجديد"
 
@@ -8940,7 +8977,7 @@ msgstr ""
 msgid "Repo Public Keys"
 msgstr ""
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:276
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:280
 msgid "Repository Public Keys"
 msgstr ""
 
@@ -9071,7 +9108,7 @@ msgstr "يتطلب wpa-supplicant مع دعم SAE"
 msgid "Requires wpa-supplicant with WEP support"
 msgstr "يتطلب wpa-supplicant مع دعم WEP"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2156
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2154
 #: modules/luci-base/ucode/template/sysauth.ut:39
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:17
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:30
@@ -9155,19 +9192,19 @@ msgstr "مرشح المسار العكسي"
 msgid "Reverse sort"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4814
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4922
 msgid "Revert"
 msgstr "يرجع"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4920
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5028
 msgid "Revert changes"
 msgstr "التغيرات المرتدة"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5131
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5239
 msgid "Revert request failed with status <code>%h</code>"
 msgstr "فشل طلب العودة مع الحالة <code> h% </code>"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5111
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5219
 msgid "Reverting configuration…"
 msgstr "جارٍ إعادة التكوين …"
 
@@ -9350,7 +9387,7 @@ msgid ""
 "address or interface."
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2318
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2316
 msgid "Runtime error"
 msgstr "خطأ أثناء التشغيل"
 
@@ -9426,8 +9463,8 @@ msgstr "خادم SSTP"
 msgid "SWAP"
 msgstr "ذاكرة المبادلة"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3285
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2151
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3363
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2149
 #: modules/luci-compat/luasrc/view/cbi/error.htm:17
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:26
 #: modules/luci-compat/luasrc/view/cbi/header.htm:20
@@ -9436,8 +9473,8 @@ msgstr "ذاكرة المبادلة"
 msgid "Save"
 msgstr "إحفظ"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2133
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4802
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2131
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4910
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:22
 msgid "Save & Apply"
 msgstr "حفظ وتطبيق"
@@ -9488,11 +9525,11 @@ msgstr "مجال البحث"
 msgid "Section %s is empty."
 msgstr "القسم %s فارغ."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4788
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4896
 msgid "Section added"
 msgstr "تمت إضافة القسم"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4790
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4898
 msgid "Section removed"
 msgstr "تمت إزالة القسم"
 
@@ -9504,6 +9541,10 @@ msgstr "راجع صفحة \"التركيب\" للحصول على التفاصي�
 msgid "See %s and %s."
 msgstr ""
 
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3283
+msgid "Select"
+msgstr ""
+
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:285
 msgid ""
 "Select 'Force upgrade' to flash the image even if the image format check "
@@ -9513,9 +9554,15 @@ msgstr ""
 "حدد \"فرض الترقية\" وميض الصورة حتى إذا فشل فحص تنسيق الصورة. استخدمه فقط "
 "إذا كنت متأكدًا من أن البرنامج الثابت صحيح ومخصص لجهازك!"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2936
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3083
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3247
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2980
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3179
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3355
+msgid "Select directory…"
+msgstr ""
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2980
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3179
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3355
 msgid "Select file…"
 msgstr "حدد ملفًا …"
 
@@ -9576,7 +9623,7 @@ msgstr "نوع الخدمة"
 msgid "Services"
 msgstr "خدمات"
 
-#: modules/luci-base/htdocs/luci-static/resources/luci.js:2619
+#: modules/luci-base/htdocs/luci-static/resources/luci.js:2617
 msgid "Session expired"
 msgstr "انتهت الجلسة"
 
@@ -9729,7 +9776,7 @@ msgstr "معدل تحديث الإشارة"
 msgid "Signal:"
 msgstr "الإشارة:"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4539
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4647
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:224
 msgid "Size"
 msgstr "مقاس"
@@ -10092,7 +10139,7 @@ msgstr "أولوية البدء"
 msgid "Start refresh"
 msgstr "ابدأ التحديث"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5035
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5143
 msgid "Starting configuration apply…"
 msgstr "بدء تطبيق التكوين …"
 
@@ -10255,7 +10302,7 @@ msgstr "بروتوكول التبديل"
 msgid "Switch to CIDR list notation"
 msgstr "قم بالتبديل إلى تدوين قائمة CIDR"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2981
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3025
 msgid "Symbolic link"
 msgstr "ارتباط رمزي"
 
@@ -10614,7 +10661,7 @@ msgstr "يجب تحديد SSID الصحيح يدويًا عند الانضمام
 msgid "The default (%s) is zero for both IPv4 and IPv6."
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4911
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5019
 msgid ""
 "The device could not be reached within %d seconds after applying the pending "
 "changes, which caused the configuration to be rolled back for safety "
@@ -10700,7 +10747,7 @@ msgstr ""
 "مفتاح SSH العمومي المحدد غير صالح. يرجى تقديم مفاتيح RSA أو ECDSA العامة "
 "المناسبة."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:201
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:205
 msgid "The given software repository public key is already present."
 msgstr ""
 
@@ -10977,7 +11024,7 @@ msgstr ""
 msgid "There are no active leases"
 msgstr "لا توجد إيجارات نشطة"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5078
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5186
 msgid "There are no changes to apply"
 msgstr "لا توجد تغييرات لتطبيقها"
 
@@ -11080,13 +11127,13 @@ msgid ""
 "This is usually the address of the nearest PoP operated by the tunnel broker"
 msgstr "عادة ما يكون هذا هو عنوان أقرب نقطة اتصال يديرها وسيط النفق"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:129
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:133
 msgid ""
 "This key appears to be in PEM format, which is not supported in an opkg "
 "environment."
 msgstr ""
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:131
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:135
 msgid ""
 "This key does not appear to be in PEM format, which is required in an apk "
 "environment."
@@ -11133,7 +11180,7 @@ msgstr ""
 "هذا يمنع عناوين IP التي لا يمكن الوصول إليها في الشبكات الفرعية التي لا "
 "يمكنك الوصول إليها."
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2288
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2311
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:172
 #: modules/luci-compat/luasrc/view/cbi/tsection.htm:32
 msgid "This section contains no values yet"
@@ -11565,12 +11612,12 @@ msgctxt "Dnsmasq instance"
 msgid "Unnamed instance #%d"
 msgstr "مثيل غير مسمى #%d"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:71
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:75
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:121
 msgid "Unnamed key"
 msgstr "مفتاح بدون اسم"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4727
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4835
 msgid "Unsaved Changes"
 msgstr "تغييرات غير محفوظة"
 
@@ -11614,7 +11661,7 @@ msgstr "نظير بدون عنوان"
 msgid "Up"
 msgstr "يشتغل"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4613
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4721
 msgid "Upload"
 msgstr "رفع"
 
@@ -11631,25 +11678,25 @@ msgstr ""
 msgid "Upload archive..."
 msgstr "تحميل أرشيف ..."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3137
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3233
 msgid "Upload file"
 msgstr "رفع ملف"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3112
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3208
 msgid "Upload file…"
 msgstr "رفع ملف…"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4559
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4667
 msgid "Upload has been cancelled"
 msgstr "تم إلغاء التحميل"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3059
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4601
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3155
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4709
 msgid "Upload request failed: %s"
 msgstr "فشل طلب التحميل: %s"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4520
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4574
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4628
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4682
 msgid "Uploading file…"
 msgstr "جارٍ تحميل الملف …"
 
@@ -12293,7 +12340,7 @@ msgstr "اكتب طلبات DNS المستلمة إلى سجل النظام."
 msgid "Write system log to file"
 msgstr "اكتب سجل النظام إلى ملف"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:4389
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4460
 msgid "Yes"
 msgstr "نعم"
 
@@ -12417,8 +12464,8 @@ msgstr ""
 msgid "bridged"
 msgstr "جسر"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:155
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:419
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:163
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:427
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:35
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:99
 #: modules/luci-compat/luasrc/view/cbi/network_netlist.htm:31
@@ -12555,8 +12602,8 @@ msgstr "فرض"
 msgid "forced"
 msgstr "إجباري"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:94
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:205
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:101
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:213
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:61
 msgid "forward"
 msgstr "إلى الأمام"
@@ -12605,8 +12652,8 @@ msgstr ""
 msgid "infinite (lease does not expire)"
 msgstr "غير محدود (لا تنتهي صلاحية عقد الإيجار)"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:78
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:201
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:85
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:209
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:46
 msgid "input"
 msgstr "إدخال"
@@ -12676,12 +12723,12 @@ msgstr "لا يوجد ارتباط"
 msgid "no override"
 msgstr "لا يوجد تجاوز"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2277
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2300
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:72
 msgid "non-empty value"
 msgstr "قيمة غير فارغة"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3436
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3514
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:851
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:832
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:166
@@ -12724,7 +12771,7 @@ msgstr "شبكة مفتوحة"
 msgid "other config (O)"
 msgstr "تكوين آخر (O)"
 
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:78
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:85
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:46
 msgid "output"
 msgstr "الحاصل"
@@ -12857,14 +12904,14 @@ msgstr "إصدار غير معروف"
 msgid "unlimited"
 msgstr "غير محدود"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3806
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:85
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:147
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:383
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:410
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:446
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:483
-#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:593
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3897
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:92
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:154
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:391
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:418
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:454
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:491
+#: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:601
 #: modules/luci-compat/luasrc/view/cbi/firewall_zonelist.htm:53
 #: modules/luci-compat/luasrc/view/cbi/network_netlist.htm:38
 msgid "unspecified"

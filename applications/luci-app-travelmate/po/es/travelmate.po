@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-11-23 09:51+0000\n"
-"Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
+"PO-Revision-Date: 2026-01-10 04:39+0000\n"
+"Last-Translator: Juan Benites <benitesjn@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationstravelmate/es/>\n"
 "Language: es\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:77
 msgid "-- AP Selection --"
@@ -22,7 +22,6 @@ msgstr "-- Selección de AP --"
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:405
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:440
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:450
-#, fuzzy
 msgid "-- default --"
 msgstr "-- por defecto --"
 
@@ -303,7 +302,7 @@ msgstr ""
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:424
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:967
 msgid "FAST"
-msgstr "RÁPIDO"
+msgstr "FAST"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:381
 msgid "Filter AutoAdd SSIDs"
