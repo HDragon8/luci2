@@ -18,7 +18,7 @@ msgctxt "Yet unknown nftables table family (\"family\" table \"name\")"
 msgid "\"%h\" table \"%h\""
 msgstr "\"%h\" அட்டவணை \"%h\""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1859
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1860
 msgid "%.1f dB"
 msgstr "%.1F DB"
 
@@ -82,7 +82,7 @@ msgstr "பல VLAN களில் %s இணைக்கப்படவில�
 msgid "%s means \"the address of the system running dnsmasq\"."
 msgstr "%s என்றால் \"DNSMASQ இயங்கும் கணினியின் முகவரி\"."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1779
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1780
 msgid ""
 "%s services running on this device in the default VRF context (ie., not "
 "bound to any VRF device) shall work across all VRF domains."
@@ -292,7 +292,7 @@ msgstr ""
 msgid "24: ARM uboot 64 boot from HTTP"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1804
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1805
 msgid "256"
 msgstr "256"
 
@@ -671,11 +671,11 @@ msgid ""
 "the same network."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1839
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1840
 msgid "A43C + J43 + A43"
 msgstr "43 ஃச் + சி 43 + அ 43"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1840
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1841
 msgid "A43C + J43 + A43 + V43"
 msgstr "ஒரு 43 சி + சி 43 + 43 + பி 43"
 
@@ -683,75 +683,75 @@ msgstr "ஒரு 43 சி + சி 43 + 43 + பி 43"
 msgid "AC"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1852
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1853
 msgid "ADSL"
 msgstr "Adsl"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1826
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1827
 msgid "ADSL (G.992.1) Annex A"
 msgstr "ADSL (G.992.1) இணைப்பு a"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1827
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1828
 msgid "ADSL (G.992.1) Annex B"
 msgstr "ADSL (G.992.1) இணைப்பு b"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1820
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1821
 msgid "ADSL (all variants) Annex A/L/M"
 msgstr "ADSL (அனைத்து வகைகளும்) இணைப்பு A/L/M"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1816
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1817
 msgid "ADSL (all variants) Annex A/L/M + VDSL2 Annex A/B/C"
 msgstr "ADSL (அனைத்து வகைகளும்) இணைப்பு A/L/M + VDSL2 இணைப்பு A/B/C."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1821
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1822
 msgid "ADSL (all variants) Annex B"
 msgstr "ADSL (அனைத்து வகைகளும்) இணைப்பு b"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1817
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1818
 msgid "ADSL (all variants) Annex B + VDSL2 Annex A/B/C"
 msgstr "ADSL (அனைத்து வகைகளும்) இணைப்பு B + VDSL2 இணைப்பு A/B/C."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1822
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1823
 msgid "ADSL (all variants) Annex B/J"
 msgstr "ADSL (அனைத்து வகைகளும்) இணைப்பு B/J."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1818
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1819
 msgid "ADSL (all variants) Annex B/J + VDSL2 Annex A/B/C"
 msgstr "ADSL (அனைத்து வகைகளும்) இணைப்பு B/J + VDSL2 இணைப்பு A/B/C."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1824
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1825
 msgid "ADSL (all variants) Annex M"
 msgstr "ADSL (அனைத்து வகைகளும்) இணைப்பு மீ"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1829
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1830
 msgid "ADSL2 (G.992.3) Annex A"
 msgstr "ADSL2 (G.992.3) இணைப்பு a"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1830
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1831
 msgid "ADSL2 (G.992.3) Annex B"
 msgstr "ADSL2 (G.992.3) இணைப்பு b"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1831
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1832
 msgid "ADSL2 (G.992.3) Annex L"
 msgstr "ADSL2 (G.992.3) இணைப்பு L."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1832
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1833
 msgid "ADSL2 (G.992.3) Annex M"
 msgstr "ADSL2 (G.992.3) இணைப்பு மீ"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1833
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1834
 msgid "ADSL2+ (G.992.5) Annex A"
 msgstr "ADSL2+ (G.992.5) இணைப்பு a"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1834
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1835
 msgid "ADSL2+ (G.992.5) Annex B"
 msgstr "ADSL2+ (G.992.5) இணைப்பு b"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1835
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1836
 msgid "ADSL2+ (G.992.5) Annex M"
 msgstr "ADSL2+ (G.992.5) இணைப்பு மீ"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1825
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1826
 msgid "ANSI T1.413"
 msgstr "ANSI T1.413"
 
@@ -802,25 +802,25 @@ msgstr ""
 "யூனிகாச்ட் ஆகும். குறிப்பு: இது 802.11v இல் இயக்கப்பட்ட மல்டிகாச்ட் பணி (டி.எம்.எச்) அல்ல. "
 "குறிப்பு: ரிசீவர் ச்டா மல்டிகாச்ட் எதிர்பார்ப்புகளை உடைக்கலாம்."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1847
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1848
 msgid "ATM (Asynchronous Transfer Mode)"
 msgstr "ஏடிஎம் (ஒத்திசைவற்ற பரிமாற்ற முறை)"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1868
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1869
 msgid "ATM Bridges"
 msgstr "ஏடிஎம் பாலங்கள்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1900
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1901
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoa.js:66
 msgid "ATM Virtual Channel Identifier (VCI)"
 msgstr "ஏடிஎம் மெய்நிகர் சேனல் அடையாளங்காட்டி (வி.சி.ஐ)"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1901
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1902
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoa.js:70
 msgid "ATM Virtual Path Identifier (VPI)"
 msgstr "ஏடிஎம் மெய்நிகர் பாதை அடையாளங்காட்டி (விபிஐ)"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1868
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1869
 msgid ""
 "ATM bridges expose encapsulated ethernet in AAL5 connections as virtual "
 "Linux network interfaces which can be used in conjunction with DHCP or PPP "
@@ -830,7 +830,7 @@ msgstr ""
 "இடைமுகங்களாக அம்பலப்படுத்துகின்றன, அவை வழங்குநர் நெட்வொர்க்கில் டயல் செய்ய DHCP அல்லது PPP "
 "உடன் இணைந்து பயன்படுத்தப்படலாம்."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1907
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1908
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoa.js:62
 msgid "ATM device number"
 msgstr "ஏடிஎம் சாதன எண்"
@@ -871,7 +871,7 @@ msgstr "உள்ளக மூல முகவரிகளுடன் பாக
 msgid "Access Concentrator"
 msgstr "அணுகல் செறிவு"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3979
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3981
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1056
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1173
 msgid "Access Point"
@@ -943,7 +943,7 @@ msgstr "செயலில் காப்புப்பிரதி"
 msgid "Active peers"
 msgstr "செயலில் உள்ள சகாக்கள்"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3980
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3982
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1058
 #: protocols/luci-proto-hnet/htdocs/luci-static/resources/protocol/hnet.js:23
 msgid "Ad-Hoc"
@@ -972,7 +972,7 @@ msgstr "தகவமைப்பு பரிமாற்ற சுமை சம
 msgid "Add"
 msgstr "கூட்டு"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1872
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1873
 msgid "Add ATM Bridge"
 msgstr "ஏடிஎம் பாலம் சேர்க்கவும்"
 
@@ -1000,11 +1000,11 @@ msgstr ""
 "அப்ச்ட்ரீமில் அனுப்பப்படும் டிஎன்எச் வினவல்களுக்கு ஒரு சப்நெட் முகவரியைச் சேர்க்கவும், இந்த "
 "மதிப்பை வெற்று அம்சத்தை முடக்குகிறது."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1579
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1580
 msgid "Add device configuration"
 msgstr "சாதன உள்ளமைவைச் சேர்க்கவும்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1519
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1520
 msgid "Add device configuration…"
 msgstr "சாதன உள்ளமைவைச் சேர்க்கவும்…"
 
@@ -1045,7 +1045,7 @@ msgid "Add multicast rule"
 msgstr "மல்டிகாச்ட் விதியைச் சேர்க்கவும்"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:483
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1403
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1404
 msgid "Add new interface..."
 msgstr "புதிய இடைமுகத்தைச் சேர்க்கவும் ..."
 
@@ -1163,7 +1163,7 @@ msgid "Administration"
 msgstr "நிர்வாகம்"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:497
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1898
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1899
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:42
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:135
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:980
@@ -1197,7 +1197,7 @@ msgstr "வயதான நேரம்"
 msgid "Aggregate Originator Messages"
 msgstr "மொத்த தோற்றுவிப்பாளர் செய்திகள்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1693
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1694
 msgid "Aggregation device"
 msgstr "திரட்டல் சாதனம்"
 
@@ -1212,7 +1212,7 @@ msgstr "திரட்டல் துறைமுகங்கள்"
 msgid "Alert"
 msgstr "விழிப்புணர்வு"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3046
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3048
 #: modules/luci-compat/luasrc/model/network.lua:1417
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:70
 msgid "Alias Interface"
@@ -1391,7 +1391,7 @@ msgstr "படிவத்தை சேமிக்கும் போது ப
 msgid "An optional, short description for this device"
 msgstr "இந்த சாதனத்திற்கான விருப்பமான, குறுகிய விளக்கம்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1814
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1815
 msgid "Annex"
 msgstr "இணைப்பு"
 
@@ -1527,7 +1527,7 @@ msgstr ""
 "இந்த இடைமுகத்திற்கு இந்த எக்சாடெசிமல் சப் ப்ரெஃபிக்ச் ஐடியைப் பயன்படுத்தி முன்னொட்டு "
 "பகுதிகளை ஒதுக்குங்கள்."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2629
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2630
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:397
 msgid "Associated Stations"
 msgstr "தொடர்புடைய நிலையங்கள்"
@@ -1681,11 +1681,11 @@ msgstr "சராசரி:"
 msgid "Avoid Bridge Loops"
 msgstr "பாலம் சுழல்களைத் தவிர்க்கவும்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1841
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1842
 msgid "B43 + B43C"
 msgstr "பி 43 + பி 43 ம"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1842
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1843
 msgid "B43 + B43C + V43"
 msgstr "பி 43 + பி 43 ஃச் + எஃப் 43"
 
@@ -1710,7 +1710,7 @@ msgstr "பி.எச்.ஐ.டி"
 msgid "Back to Overview"
 msgstr "கண்ணோட்டத்திற்குத் திரும்பு"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:846
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:869
 msgid "Back to peer configuration"
 msgstr "பியர் உள்ளமைவுக்குத் திரும்பு"
 
@@ -1873,7 +1873,7 @@ msgstr "பிணைப்பு/திரட்டல் சாதனம்"
 msgid "Both \"Relay from\" and \"Relay to address\" must be specified."
 msgstr "\"ரிலே ஃப்ரம்\" மற்றும் \"ரிலே டு முகவரி\" இரண்டும் குறிப்பிடப்பட வேண்டும்."
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3052
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3054
 #: modules/luci-compat/luasrc/model/network.lua:1421
 msgid "Bridge"
 msgstr "பாலம்"
@@ -1889,7 +1889,7 @@ msgid "Bridge VLAN filtering"
 msgstr "பாலம் VLAN வடிகட்டுதல்"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:453
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1696
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1697
 msgid "Bridge device"
 msgstr "பாலம் சாதனம்"
 
@@ -1906,7 +1906,7 @@ msgstr "பாலம் துறைமுகங்கள்"
 msgid "Bridge traffic table \"%h\""
 msgstr "பாலம் போக்குவரத்து அட்டவணை \"%h\""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1908
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1909
 msgid "Bridge unit number"
 msgstr "பாலம் அலகு எண்"
 
@@ -2001,8 +2001,8 @@ msgstr ""
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:14
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:52
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:186
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1409
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2502
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1410
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2503
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:128
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:297
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:73
@@ -2174,7 +2174,7 @@ msgstr "சேனல் அகலம்"
 msgid "Check filesystems before mount"
 msgstr "மவுண்டிற்கு முன் கோப்பு முறைமைகளை சரிபார்க்கவும்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2462
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2463
 msgid "Check this option to delete the existing networks from this radio."
 msgstr ""
 "இந்த வானொலியில் இருந்து தற்போதுள்ள நெட்வொர்க்குகளை நீக்க இந்த விருப்பத்தை சரிபார்க்கவும்."
@@ -2197,7 +2197,7 @@ msgid "Choose mtdblock"
 msgstr "MTDBlock ஐத் தேர்வுசெய்க"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:624
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2492
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2493
 msgid ""
 "Choose the firewall zone you want to assign to this interface. Select "
 "<em>unspecified</em> to remove the interface from the associated zone or "
@@ -2241,7 +2241,7 @@ msgstr ""
 "குறிப்பிட்ட MTDBLOCK கோப்பைப் பதிவிறக்க \"MTDBlock சேமி\" என்பதைக் சொடுக்கு செய்க. "
 "(குறிப்பு: இந்த நற்பொருத்தம் நிபுணர்களுக்கானது!)"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3981
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3983
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1057
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1174
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:88
@@ -2285,7 +2285,7 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:64
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:85
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2627
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2628
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:518
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/index.js:27
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:355
@@ -2415,7 +2415,7 @@ msgid ""
 "Configures the operation mode of the NDP proxy service on this interface."
 msgstr "இந்த இடைமுகத்தில் என்டிபி பதிலாள் சேவையின் செயல்பாட்டு பயன்முறையை உள்ளமைக்கிறது."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1565
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1566
 msgid "Configure…"
 msgstr "உள்ளமைக்கவும்…"
 
@@ -2542,7 +2542,7 @@ msgid "Create"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:624
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2492
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2493
 msgid "Create / Assign firewall-zone"
 msgstr "ஃபயர்வால்-மண்டலத்தை உருவாக்கவும் / ஒதுக்கவும்"
 
@@ -2550,7 +2550,7 @@ msgstr "ஃபயர்வால்-மண்டலத்தை உருவா�
 msgid "Create Directory"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1441
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1442
 msgid "Create interface"
 msgstr "இடைமுகத்தை உருவாக்கவும்"
 
@@ -2650,7 +2650,7 @@ msgstr "DHCP விருப்பங்கள்"
 msgid "DHCP Server"
 msgstr "DHCP சேவையகம்"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:2097
+#: modules/luci-base/htdocs/luci-static/resources/network.js:2099
 #: modules/luci-base/htdocs/luci-static/resources/protocol/dhcp.js:16
 #: modules/luci-compat/luasrc/model/network.lua:969
 msgid "DHCP client"
@@ -2769,7 +2769,7 @@ msgstr "Ds-lite aftr முகவரி"
 msgid "DSCP"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1811
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1812
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/50_dsl.js:37
 msgid "DSL"
 msgstr "டி.எச்.எல்"
@@ -2778,7 +2778,7 @@ msgstr "டி.எச்.எல்"
 msgid "DSL Status"
 msgstr "டி.எச்.எல் நிலை"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1850
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1851
 msgid "DSL line mode"
 msgstr "டி.எச்.எல் வரி பயன்முறை"
 
@@ -2835,7 +2835,7 @@ msgstr "பிழைத்திருத்தம்"
 msgid "Default"
 msgstr "இயல்புநிலை"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1771
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1772
 msgid "Default DUID"
 msgstr ""
 
@@ -3007,8 +3007,8 @@ msgstr "இலக்கு மண்டலம்"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:54
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:93
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:609
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1391
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1715
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1392
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1716
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:71
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:184
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:211
@@ -3048,7 +3048,7 @@ msgstr "சாதன பெயர்"
 msgid "Device not managed by ModemManager."
 msgstr "மோடம்மேனேசரால் நிர்வகிக்கப்படாத சாதனம்."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1684
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1685
 msgid "Device not present"
 msgstr "சாதனம் இல்லை"
 
@@ -3064,7 +3064,7 @@ msgstr "சாதனம் அணுக முடியாதது!"
 msgid "Device unreachable! Still waiting for device..."
 msgstr "சாதனம் அணுக முடியாதது! சாதனத்திற்காக இன்னும் காத்திருக்கிறது ..."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1516
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1517
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:289
 msgid "Devices"
 msgstr "சாதனங்கள்"
@@ -3118,7 +3118,7 @@ msgid ""
 "e.g. <code>dnsmasq</code>."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1800
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1801
 msgid ""
 "Directs packet flows to specific CPUs where the local socket owner listens "
 "(the local service)."
@@ -3162,7 +3162,7 @@ msgstr "இந்த பிணையத்தை முடக்கு"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1138
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1144
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1791
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1792
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1010
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1752
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1948
@@ -3387,7 +3387,11 @@ msgstr "பதிவிறக்கம் தோல்வியுற்றத�
 msgid "Download mtdblock"
 msgstr "MTDBlock ஐ பதிவிறக்கவும்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1855
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:830
+msgid "Download peer configuration file"
+msgstr ""
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1856
 msgid "Downstream SNR offset"
 msgstr "கீழ்நிலை SNR ஆஃப்செட்"
 
@@ -3826,7 +3830,7 @@ msgstr ""
 msgid "Enable or disable DHCPv4 services on this interface."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1790
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1791
 msgid "Enable packet steering across CPUs. May help or hinder network speed."
 msgstr ""
 "சிபியு கள் முழுவதும் பாக்கெட் ச்டீயரிங் இயக்கவும். பிணைய வேகத்திற்கு உதவலாம் அல்லது "
@@ -3881,7 +3885,7 @@ msgstr "யூனிகாச்ட் வெள்ளத்தை இயக்�
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1137
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1143
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1792
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1793
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1949
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2131
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:222
@@ -3892,7 +3896,7 @@ msgstr "யூனிகாச்ட் வெள்ளத்தை இயக்�
 msgid "Enabled"
 msgstr "இயக்கப்பட்டது"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1793
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1794
 msgid "Enabled (all CPUs)"
 msgstr "இயக்கப்பட்டது (அனைத்து சிபியு களும்)"
 
@@ -3936,8 +3940,8 @@ msgstr "ENGAP 3+4"
 msgid "Encapsulation limit"
 msgstr "இணைத்தல் வரம்பு"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1845
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1903
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1846
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1904
 msgid "Encapsulation mode"
 msgstr "இணைத்தல் பயன்முறை"
 
@@ -4023,12 +4027,12 @@ msgstr "பிழை"
 msgid "Error getting PublicKey"
 msgstr "பப்ளிக் கோட்டைப் பெறுவதில் பிழை"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3071
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3073
 #: modules/luci-compat/luasrc/model/network.lua:1433
 msgid "Ethernet Adapter"
 msgstr "ஈத்தர்நெட் அடாப்டர்"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3059
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3061
 #: modules/luci-compat/luasrc/model/network.lua:1423
 msgid "Ethernet Switch"
 msgstr "ஈத்தர்நெட் சுவிட்ச்"
@@ -4423,7 +4427,7 @@ msgstr "ஃபயர்வால் நிலை"
 msgid "Firewall mark"
 msgstr "ஃபயர்வால் குறி"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1862
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1863
 msgid "Firmware File"
 msgstr "ஃபார்ம்வேர் கோப்பு"
 
@@ -4479,7 +4483,7 @@ msgid "For multicast, an outgoing interface (%s) needs to be specified"
 msgstr "மல்டிகாச்டுக்கு, வெளிச்செல்லும் இடைமுகம் (%s) குறிப்பிடப்பட வேண்டும்"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1221
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1776
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1777
 msgid "For packets originating from this device, e.g. VPN."
 msgstr ""
 
@@ -4541,7 +4545,7 @@ msgstr "TKIP மற்றும் CCMP (AES) ஐ கட்டாயப்பட
 msgid "Force broadcast DHCP response."
 msgstr "ஃபோர்ச் பிராட்காச்ட் டி.எச்.சி.பி பதில்."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1507
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1508
 msgid "Force link"
 msgstr "கட்டாய இணைப்பு"
 
@@ -4623,7 +4627,7 @@ msgstr "முன்னோக்கி/தலைகீழ் டி.என்.�
 msgid "Forwarding DataBase"
 msgstr "பகிர்தல் தரவுத்தளம்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1910
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1911
 msgid "Forwarding mode"
 msgstr "பகிர்தல் முறை"
 
@@ -4742,7 +4746,7 @@ msgid "General Settings"
 msgstr "பொது அமைப்புகள்"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:673
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1897
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1898
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:979
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1048
 msgid "General Setup"
@@ -4772,11 +4776,11 @@ msgstr ""
 msgid "Generate archive"
 msgstr "காப்பகத்தை உருவாக்குங்கள்"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:826
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:849
 msgid "Generate configuration"
 msgstr "உள்ளமைவை உருவாக்குங்கள்"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:871
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:894
 msgid "Generate configuration…"
 msgstr "உள்ளமைவை உருவாக்குங்கள்…"
 
@@ -4805,7 +4809,7 @@ msgstr "கொடுக்கப்பட்ட கடவுச்சொல் �
 msgid "Global Settings"
 msgstr "உலகளாவிய அமைப்புகள்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1761
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1762
 msgid "Global network options"
 msgstr "உலகளாவிய பிணைய விருப்பங்கள்"
 
@@ -5060,7 +5064,7 @@ msgstr "கொக்கி: <strong>%எச் </strong> (%எச்), முன
 msgid "Hop Penalty"
 msgstr "ஆப் தண்டம்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2621
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2622
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:247
 msgid "Host"
 msgstr "விருந்தோம்பி"
@@ -5445,7 +5449,7 @@ msgstr "ஐபிவி 6 அமைப்புகள்"
 msgid "IPv6 Token"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1765
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1766
 msgid "IPv6 ULA-Prefix"
 msgstr "IPv6 ULA-PREFIX"
 
@@ -5914,7 +5918,7 @@ msgstr "சான்று \"%q\""
 msgid "Instance Details"
 msgstr "நிகழ்வு விவரங்கள்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2488
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2489
 msgid ""
 "Instead of joining any network with a matching SSID, only connect to the "
 "BSSID <code>%h</code>."
@@ -6180,7 +6184,7 @@ msgstr ""
 msgid "JavaScript required!"
 msgstr "சாவாச்கிரிப்ட் தேவை!"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2261
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2262
 msgid "Join Network"
 msgstr "நெட்வொர்க்கில் சேரவும்"
 
@@ -6188,7 +6192,7 @@ msgstr "நெட்வொர்க்கில் சேரவும்"
 msgid "Join Network: Wireless Scan"
 msgstr "நெட்வொர்க்கில் சேரவும்: வயர்லெச் ச்கேன்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2496
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2497
 msgid "Joining Network: %q"
 msgstr "நெட்வொர்க்கில் சேருதல்: %q"
 
@@ -6327,7 +6331,7 @@ msgstr "எல்.சி.பி எதிரொலி இடைவெளி"
 msgid "LED Configuration"
 msgstr "எல்.ஈ.டி உள்ளமைவு"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1904
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1905
 msgid "LLC"
 msgstr "எல்.எல்.சி."
 
@@ -6653,8 +6657,8 @@ msgstr ""
 msgid "Load configuration…"
 msgstr "உள்ளமைவை ஏற்றவும்…"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1437
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2425
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1438
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2426
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:182
 msgid "Loading data…"
 msgstr "தரவை ஏற்றுகிறது…"
@@ -6787,7 +6791,7 @@ msgstr "உள்ளூர்மயமாக்கப்பட்ட வின�
 msgid "Location Area Code"
 msgstr "இருப்பிட பகுதி குறியீடு"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2488
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2489
 msgid "Lock to BSSID"
 msgstr "BSSID க்கு பூட்டவும்"
 
@@ -6906,7 +6910,7 @@ msgstr "லுவா இணக்கத்தன்மை பயன்முற�
 msgid "MAC"
 msgstr "மேக்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1737
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1738
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoe.js:51
 msgid "MAC Address"
 msgstr "மேக் முகவரி"
@@ -6920,14 +6924,14 @@ msgid "MAC Addresses"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:456
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1702
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1703
 msgid "MAC VLAN"
 msgstr "மேக் வ்லான்"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1101
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:58
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1235
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2620
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2621
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:72
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:112
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:246
@@ -6982,7 +6986,7 @@ msgid "MII link monitoring"
 msgstr "MII இணைப்பு கண்காணிப்பு"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1090
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1749
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1750
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:91
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:53
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:83
@@ -7025,7 +7029,7 @@ msgstr "உற்பத்தியாளர்"
 msgid "Master"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3983
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3985
 msgid "Master (VLAN)"
 msgstr "மாச்டர் (VLAN)"
 
@@ -7240,7 +7244,7 @@ msgstr "மெச் ஐடி"
 msgid "Mesh Id"
 msgstr "மெச் ஐடி"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3985
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3987
 msgid "Mesh Point"
 msgstr "கண்ணி புள்ளி"
 
@@ -7406,7 +7410,7 @@ msgstr "மோடம் தொடக்க நேரம் முடிந்த
 msgid "ModemManager"
 msgstr "மோடம் மேலாளர்"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3982
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3984
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1145
 msgid "Monitor"
 msgstr "கண்காணிக்கவும்"
@@ -7495,7 +7499,7 @@ msgstr "மல்டி டு யூனிகாச்ட்"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1219
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1220
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1776
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1777
 msgid "Multi-Path TCP"
 msgstr ""
 
@@ -7599,7 +7603,7 @@ msgstr "பெயர்"
 msgid "Name already exists."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2465
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2466
 msgid ""
 "Name for OpenWrt network configuration. (No relation to wireless network "
 "name/SSID)"
@@ -7607,7 +7611,7 @@ msgstr ""
 "OpenWRT பிணையம் உள்ளமைவுக்கான பெயர். (வயர்லெச் பிணையம் பெயர்/எச்.எச்.ஐ.டி உடன் எந்த "
 "தொடர்பும் இல்லை)"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2464
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2465
 msgid "Name of the new network"
 msgstr "புதிய நெட்வொர்க்கின் பெயர்"
 
@@ -7653,7 +7657,7 @@ msgstr "நெட்ஃபில்டர் அட்டவணை பெயர�
 
 #: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json:45
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1089
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2619
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2620
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:510
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:79
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:245
@@ -7672,7 +7676,7 @@ msgstr "பிணைய முறை"
 msgid "Network Registration"
 msgstr "பிணைய பதிவு"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2458
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2459
 msgid "Network SSID"
 msgstr "பிணையம் எச்.எச்.ஐ.டி."
 
@@ -7701,7 +7705,7 @@ msgid "Network bridge configuration migration"
 msgstr "பிணையம் பாலம் உள்ளமைவு இடம்பெயர்வு"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:449
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1711
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1712
 msgid "Network device"
 msgstr "பிணைய சாதனம்"
 
@@ -7766,7 +7770,7 @@ msgctxt "Dnsmasq instance"
 msgid "New instance name…"
 msgstr "புதிய நிகழ்வு பெயர்…"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1423
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1424
 msgid "New interface for \"%s\" can not be created: %s"
 msgstr "\" %s\" க்கான புதிய இடைமுகத்தை உருவாக்க முடியாது: %s"
 
@@ -7877,7 +7881,7 @@ msgstr "உள்ளீடுகள் எதுவும் கிடைக்�
 msgid "No entries in this directory"
 msgstr "இந்த கோப்பகத்தில் உள்ளீடுகள் இல்லை"
 
-#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:853
+#: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:876
 msgid ""
 "No fixed interface listening port defined, peers might not be able to "
 "initiate connections to this WireGuard instance!"
@@ -7955,7 +7959,7 @@ msgid "No special configuration"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:151
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1468
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1469
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/29_ports.js:332
 msgid "No zone assigned"
 msgstr "எந்த மண்டலமும் ஒதுக்கப்படவில்லை"
@@ -8085,7 +8089,7 @@ msgid ""
 "which should no longer be used)."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1801
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1802
 msgid ""
 "Note: this setting is for local services on the device only (not for "
 "forwarding)."
@@ -8163,7 +8167,7 @@ msgstr "IPv6 முகவரியைப் பெறுங்கள்"
 msgid "Off"
 msgstr "அணை"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1780
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1781
 msgid ""
 "Off means VRF traffic will be handled exclusively by sockets bound to VRFs."
 msgstr ""
@@ -8629,11 +8633,11 @@ msgstr "இறக்குமதி செய்யப்பட்ட உள்�
 msgid "Owner"
 msgstr "உரிமையாளர்"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3986
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3988
 msgid "P2P Client"
 msgstr "பி 2 பி வாங்கி"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3987
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3989
 msgid "P2P Go"
 msgstr "பி 2 பி கோ"
 
@@ -8745,7 +8749,7 @@ msgctxt "Label indicating that WireGuard peer uses a PSK"
 msgid "PSK"
 msgstr "Psk"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1848
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1849
 msgid "PTM/EFM (Packet Transfer Mode)"
 msgstr "PTM/EFM (பாக்கெட் பரிமாற்ற முறை)"
 
@@ -8761,7 +8765,7 @@ msgstr "Pxe/tftp"
 msgid "Packet Service State"
 msgstr "பாக்கெட் பணி நிலை"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1790
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1791
 msgid "Packet Steering"
 msgstr "பாக்கெட் ச்டீயரிங்"
 
@@ -8794,7 +8798,7 @@ msgstr[0] "நெட்வொர்க்கின் ஒரு பகுதி:
 msgstr[1] "நெட்வொர்க்குகளின் ஒரு பகுதி:"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:151
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1468
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1469
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/29_ports.js:332
 msgid "Part of zone %q"
 msgstr "மண்டலத்தின் ஒரு பகுதி %q"
@@ -9281,7 +9285,7 @@ msgstr "புரோட்."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:92
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:593
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1385
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1386
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:511
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:60
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:190
@@ -9514,7 +9518,7 @@ msgstr "ஆர்.எக்ச்"
 msgid "RX Rate"
 msgstr "ஆர்எக்ச் வீதம்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2623
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2624
 msgid "RX Rate / TX Rate"
 msgstr "RX வீதம் / TX வீதம்"
 
@@ -9815,7 +9819,7 @@ msgctxt "Dnsmasq instance"
 msgid "Remove instance #%d"
 msgstr "உதாரணத்தை அகற்று #%d"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1569
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1570
 msgid "Remove related device settings from the configuration"
 msgstr "தொடர்புடைய சாதன அமைப்புகளை உள்ளமைவிலிருந்து அகற்று"
 
@@ -9827,7 +9831,7 @@ msgstr "வினவலை அனுப்புவதற்கு முன் 
 msgid "Removes records of the specified type(s) from answers."
 msgstr "பதில்களிலிருந்து குறிப்பிட்ட வகை (கள்) இன் பதிவுகளை நீக்குகிறது."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2462
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2463
 msgid "Replace wireless configuration"
 msgstr "வயர்லெச் உள்ளமைவை மாற்றவும்"
 
@@ -10583,7 +10587,7 @@ msgid "Set interface as NDP-Proxy external slave. Default is off."
 msgstr ""
 "இடைமுகத்தை NDP-PROXY வெளிப்புற அடிமையாக அமைக்கவும். இயல்புநிலை முடக்கப்பட்டுள்ளது."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1507
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1508
 msgid ""
 "Set interface properties regardless of the link carrier (If set, carrier "
 "sense events do not invoke hotplug handlers)."
@@ -10701,7 +10705,7 @@ msgstr "இந்த இடைமுகத்தை நிறுத்துங�
 msgid "Signal"
 msgstr "குறிகை"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2622
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2623
 msgid "Signal / Noise"
 msgstr "சிக்னல் / ஒலி"
 
@@ -10757,7 +10761,7 @@ msgstr "அடிமை தேர்வு ஆச் கொள்கை"
 msgid "Slow (every 30 seconds)"
 msgstr "மெதுவாக (ஒவ்வொரு 30 விநாடிகளும்)"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3062
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3064
 #: modules/luci-compat/luasrc/model/network.lua:1428
 msgid "Software VLAN"
 msgstr "மென்பொருள் VLAN"
@@ -11070,7 +11074,7 @@ msgid ""
 msgstr ""
 "தோல்வி நிகழ்வுக்குப் பிறகு வழங்கப்பட வேண்டிய தம அறிவிப்புகளின் எண்ணிக்கையைக் குறிப்பிடவும்."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2481
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2482
 msgid "Specify the secret encryption key here."
 msgstr "ரகசிய குறியாக்க விசையை இங்கே குறிப்பிடவும்."
 
@@ -11078,7 +11082,7 @@ msgstr "ரகசிய குறியாக்க விசையை இங்
 msgid "Speed: %d Mbit/s, Duplex: %s"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1828
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1829
 msgid "Splitterless ADSL (G.992.2) Annex A"
 msgstr "ச்ப்ளிட்டர்லெச் ADSL (G.992.2) இணைப்பு a"
 
@@ -11095,7 +11099,7 @@ msgstr "நிலையான"
 msgid "Stale neighbour cache timeout"
 msgstr "பழைய அண்டை கேச் நேரம் முடிந்தது"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1802
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1803
 msgid "Standard: none"
 msgstr "தரநிலை: எதுவுமில்லை"
 
@@ -11117,7 +11121,7 @@ msgstr "WPS ஐத் தொடங்குங்கள்"
 msgid "Start priority"
 msgstr "முன்னுரிமையைத் தொடங்குங்கள்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2281
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2282
 msgid "Start refresh"
 msgstr "புதுப்பிக்கத் தொடங்குங்கள்"
 
@@ -11153,7 +11157,7 @@ msgstr "நிலையான ஐபிவி 6 வழிகள்"
 msgid "Static Lease"
 msgstr "நிலையான குத்தகை"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:2096
+#: modules/luci-base/htdocs/luci-static/resources/network.js:2098
 #: modules/luci-base/htdocs/luci-static/resources/protocol/static.js:201
 #: modules/luci-compat/luasrc/model/network.lua:967
 msgid "Static address"
@@ -11180,7 +11184,7 @@ msgstr "நிலைய செயலற்ற வரம்பு"
 msgid "Status"
 msgstr "நிலை"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1799
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1800
 msgid "Steering flows (<abbr title=\"Receive Packet Steering\">RPS</abbr>)"
 msgstr ""
 "ச்டீயரிங் பாய்ச்சல்கள் (<abbr தலைப்பு = \"பாக்கெட் ச்டீயரிங் பெறுங்கள்\"> ஆர்.பி.எச் </abbr>)"
@@ -11199,7 +11203,7 @@ msgid "Stop WPS"
 msgstr "WPS ஐ நிறுத்துங்கள்"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2191
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2286
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2287
 msgid "Stop refresh"
 msgstr "புதுப்பிப்பதை நிறுத்துங்கள்"
 
@@ -11220,11 +11224,11 @@ msgid "Strong"
 msgstr "வலுவான"
 
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:61
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2506
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2507
 msgid "Submit"
 msgstr "சமர்ப்பிக்கவும்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1803
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1804
 msgid "Suggested: 128"
 msgstr "பரிந்துரைக்கப்பட்டது: 128"
 
@@ -11266,12 +11270,12 @@ msgid ""
 "Switch %q has an unknown topology - the VLAN settings might not be accurate."
 msgstr "சுவிட்ச் %Q அறியப்படாத இடவியல் உள்ளது - VLAN அமைப்புகள் துல்லியமாக இருக்காது."
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3062
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3064
 #: modules/luci-compat/luasrc/model/network.lua:1426
 msgid "Switch VLAN"
 msgstr "VLAN ஐ மாற்றவும்"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3059
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3061
 msgid "Switch port"
 msgstr "துறைமுகம் சுவிட்ச்"
 
@@ -11354,7 +11358,7 @@ msgstr "கணினி பதிவு இடையக அளவு"
 msgid "System running in recovery (initramfs) mode."
 msgstr "மீட்டெடுப்பில் இயங்கும் கணினி (INITRAMFS) பயன்முறையில்."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1782
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1783
 msgid "TCP Layer 3 Master Device (tcp_l3mdev) accept"
 msgstr "TCP அடுக்கு 3 முதன்மை சாதனம் (TCP_L3MDEV) ஏற்றுக்கொள்ளுங்கள்"
 
@@ -11644,7 +11648,7 @@ msgstr "இந்த %s ஐ அடையக்கூடிய முகவரி
 msgid "The algorithm that is used to discover mesh routes"
 msgstr "கண்ணி வழித்தடங்களைக் கண்டறிய பயன்படுத்தப்படும் வழிமுறை"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2466
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2467
 msgid ""
 "The allowed characters are: <code>A-Z</code>, <code>a-z</code>, <code>0-9</"
 "code> and <code>_</code>"
@@ -11675,7 +11679,7 @@ msgstr ""
 msgid "The configuration file could not be loaded due to the following error:"
 msgstr "பின்வரும் பிழை காரணமாக உள்ளமைவு கோப்பை ஏற்ற முடியவில்லை:"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2458
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2459
 msgid ""
 "The correct SSID must be manually specified when joining a hidden wireless "
 "network"
@@ -11687,7 +11691,7 @@ msgstr ""
 msgid "The default (%s) is zero for both IPv4 and IPv6."
 msgstr "இயல்புநிலை (%s) IPv4 மற்றும் IPv6 இரண்டிற்கும் பூச்சியமாகும்."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1772
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1773
 msgid ""
 "The default <abbr title=\"DHCP Unique Identifier\">DUID</abbr> for this "
 "device, used when acting as a DHCP server or client. The client identifier "
@@ -11821,7 +11825,7 @@ msgstr "இடைமுகத்தைக் கண்டுபிடிக்�
 msgid "The interface name is already used"
 msgstr "இடைமுக பெயர் ஏற்கனவே பயன்படுத்தப்பட்டுள்ளது"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1380
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1381
 msgid "The interface name is too long"
 msgstr "இடைமுக பெயர் மிக நீளமானது"
 
@@ -11894,7 +11898,7 @@ msgstr ""
 msgid "The netfilter components below are only regarded when running fw4."
 msgstr "கீழே உள்ள நெட்ஃபில்டர் கூறுகள் FW4 ஐ இயக்கும் போது மட்டுமே கருதப்படுகின்றன."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2472
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2473
 msgid "The network name is already used"
 msgstr "பிணைய பெயர் ஏற்கனவே பயன்படுத்தப்பட்டுள்ளது"
 
@@ -12052,8 +12056,8 @@ msgstr ""
 "பதிவேற்றிய படக் கோப்பில் ஆதரிக்கப்பட்ட வடிவம் இல்லை. உங்கள் தளத்திற்கான பொதுவான பட "
 "வடிவமைப்பை நீங்கள் தேர்வு செய்கிறீர்கள் என்பதை உறுதிப்படுத்திக் கொள்ளுங்கள்."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1745
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1757
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1746
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1758
 msgid "The value is overridden by configuration."
 msgstr "மதிப்பு உள்ளமைவால் மீறப்படுகிறது."
 
@@ -12105,7 +12109,7 @@ msgstr "ரிலேவின் இந்த ஐபிவி 4 முகவர�
 msgid "This authentication type is not applicable to the selected EAP method."
 msgstr "இந்த அங்கீகார வகை தேர்ந்தெடுக்கப்பட்ட EAP முறைக்கு பொருந்தாது."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1773
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1774
 msgid ""
 "This identifier is randomly generated the first time the device is booted."
 msgstr ""
@@ -12250,7 +12254,7 @@ msgstr ""
 "கிடைக்கக்கூடிய ஒவ்வொரு வானொலி இடைமுகங்களுக்கும் இந்த பக்கம் வயர்லெச் அளவீடுகளைக் "
 "காட்டுகிறது."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1768
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1769
 msgid "This prefix is randomly generated at first install."
 msgstr "இந்த முன்னொட்டு முதல் நிறுவலில் தோராயமாக உருவாக்கப்படுகிறது."
 
@@ -12356,7 +12360,7 @@ msgstr ""
 msgid "Toggle IPv6 PD via DHCPv6."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1837
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1838
 msgid "Tone"
 msgstr "தொனி"
 
@@ -12468,7 +12472,7 @@ msgstr "தூண்டுதல் பயன்முறை"
 msgid "Tunnel ID"
 msgstr "சுரங்கப்பாதை ஐடி"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3068
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3070
 #: modules/luci-compat/luasrc/model/network.lua:1431
 msgid "Tunnel Interface"
 msgstr "சுரங்கப்பாதை இடைமுகம்"
@@ -12480,7 +12484,7 @@ msgstr "சுரங்கப்பாதை இடைமுகம்"
 msgid "Tunnel Link"
 msgstr "சுரங்கப்பாதை இணைப்பு"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1699
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1700
 msgid "Tunnel device"
 msgstr "சுரங்கப்பாதை சாதனம்"
 
@@ -12493,7 +12497,7 @@ msgid "Tx-Power"
 msgstr "டிஎக்ச்-பவர்"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:53
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1733
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1734
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:178
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/map.js:43
 msgid "Type"
@@ -12507,7 +12511,7 @@ msgstr "பணி வகை"
 msgid "UC"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1786
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1787
 msgid "UDP Layer 3 Master Device (udp_l3mdev) accept"
 msgstr "UDP அடுக்கு 3 முதன்மை சாதனம் (UDP_L3MDEV) ஏற்றுக்கொள்ளுங்கள்"
 
@@ -12538,7 +12542,7 @@ msgstr "யுடிபி:"
 msgid "UID-range"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1767
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1768
 msgid "ULA for IPv6 is analogous to IPv4 private network addressing."
 msgstr "ஐபிவி 6 க்கான யுஎல்ஏ ஐபிவி 4 தனியார் பிணையம் முகவரிக்கு ஒப்பானது."
 
@@ -12652,7 +12656,7 @@ msgstr "முள் சரிபார்க்க முடியவில்�
 msgid "Unchecked means the timezone offset (E.g. GMT+1) is displayed"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1568
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1569
 msgid "Unconfigure"
 msgstr "கட்டமைக்கப்படாதது"
 
@@ -12664,11 +12668,11 @@ msgstr "அடிப்படை இடைமுகம்"
 msgid "Unet"
 msgstr "கனவுகள்"
 
-#: modules/luci-base/htdocs/luci-static/resources/fs.js:100
+#: modules/luci-base/htdocs/luci-static/resources/fs.js:109
 msgid "Unexpected reply data format"
 msgstr "எதிர்பாராத பதில் தரவு வடிவம்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1766
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1767
 msgid ""
 "Unique Local Address (%s) - prefix <code>fd00::/8</code> (the L bit is "
 "always 1)."
@@ -12690,8 +12694,8 @@ msgstr ""
 msgid "Units: seconds"
 msgstr "அலகுகள்: விநாடிகள்"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:2098
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3988
+#: modules/luci-base/htdocs/luci-static/resources/network.js:2100
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3990
 #: modules/luci-compat/luasrc/model/network.lua:971
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:18
 msgid "Unknown"
@@ -12701,7 +12705,7 @@ msgstr "தெரியவில்லை"
 msgid "Unknown and unsupported connection method."
 msgstr "அறியப்படாத மற்றும் ஆதரிக்கப்படாத இணைப்பு முறை."
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:2441
+#: modules/luci-base/htdocs/luci-static/resources/network.js:2443
 #: modules/luci-compat/luasrc/model/network.lua:1138
 msgid "Unknown error (%s)"
 msgstr "அறியப்படாத பிழை (%s)"
@@ -12710,7 +12714,7 @@ msgstr "அறியப்படாத பிழை (%s)"
 msgid "Unknown error code"
 msgstr "அறியப்படாத பிழைக் குறியீடு"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:2095
+#: modules/luci-base/htdocs/luci-static/resources/network.js:2097
 #: modules/luci-base/htdocs/luci-static/resources/protocol/none.js:6
 #: modules/luci-compat/luasrc/model/network.lua:965
 msgid "Unmanaged"
@@ -12913,7 +12917,7 @@ msgstr "ரூட் கோப்பு முறைமையாக (/) பய�
 msgid "Use broadcast flag"
 msgstr "ஒளிபரப்பு கொடியைப் பயன்படுத்தவும்"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1503
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1504
 msgid "Use builtin IPv6-management"
 msgstr "பில்டின் ஐபிவி 6-மேலாண்மை பயன்படுத்தவும்"
 
@@ -13048,11 +13052,11 @@ msgstr "ஓட்ட அட்டவணையைப் பயன்படுத�
 msgid "VC"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1905
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1906
 msgid "VC-Mux"
 msgstr "Vc-mux"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1853
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1854
 msgid "VDSL"
 msgstr "Vdsl"
 
@@ -13062,12 +13066,12 @@ msgid "VEPA (Virtual Ethernet Port Aggregator)"
 msgstr "VEPA (மெய்நிகர் ஈத்தர்நெட் துறைமுகம் திரட்டல்)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:455
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1690
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1691
 msgid "VLAN (802.1ad)"
 msgstr "VLAN (802.1AD)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:454
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1687
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1688
 msgid "VLAN (802.1q)"
 msgstr "VLAN (802.1Q)"
 
@@ -13191,12 +13195,12 @@ msgid "Via shall be specified when %s is a multicast address"
 msgstr "%s ஒரு மல்டிகாச்ட் முகவரியாக இருக்கும்போது வழியாக குறிப்பிடப்படும்"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:457
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1705
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1706
 msgid "Virtual Ethernet"
 msgstr "மெய்நிகர் ஈதர்நெட்"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3055
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1708
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3057
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1709
 msgid "Virtual Routing and Forwarding (VRF)"
 msgstr "மெய்நிகர் ரூட்டிங் மற்றும் பகிர்தல் (வி.ஆர்.எஃப்)"
 
@@ -13204,7 +13208,7 @@ msgstr "மெய்நிகர் ரூட்டிங் மற்றும�
 msgid "Virtual dynamic interface"
 msgstr "மெய்நிகர் மாறும் இடைமுகம்"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3984
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3986
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1173
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1174
 msgid "WDS"
@@ -13220,7 +13224,7 @@ msgstr "திறந்த அமைப்பு"
 msgid "WEP Shared Key"
 msgstr "WEP பகிரப்பட்ட விசை"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2481
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2482
 msgid "WEP passphrase"
 msgstr "Wep கடவுச்சொல்"
 
@@ -13240,7 +13244,7 @@ msgstr "WNM தூக்க முறை"
 msgid "WNM Sleep Mode Fixes"
 msgstr "WNM தூக்க பயன்முறை சரிசெய்கிறது"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2481
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2482
 msgid "WPA passphrase"
 msgstr "WPA கடவுச்சொல்"
 
@@ -13390,7 +13394,7 @@ msgstr "அகலம்"
 msgid "WireGuard"
 msgstr "வயர் கார்ட்"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3065
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3067
 msgid "WireGuard Interface"
 msgstr "வயர் கார்ட் இடைமுகம்"
 
@@ -13415,13 +13419,13 @@ msgstr "வயர் கார்ட் பியர் முடக்கப்
 msgid "Wireless"
 msgstr "கம்பியில்லா"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3049
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3051
 #: modules/luci-compat/luasrc/model/network.lua:1419
 msgid "Wireless Adapter"
 msgstr "வயர்லெச் அடாப்டர்"
 
-#: modules/luci-base/htdocs/luci-static/resources/network.js:3028
-#: modules/luci-base/htdocs/luci-static/resources/network.js:4435
+#: modules/luci-base/htdocs/luci-static/resources/network.js:3030
+#: modules/luci-base/htdocs/luci-static/resources/network.js:4437
 #: modules/luci-compat/luasrc/model/network.lua:1405
 #: modules/luci-compat/luasrc/model/network.lua:1868
 msgid "Wireless Network"
@@ -13559,9 +13563,9 @@ msgid "any"
 msgstr "ஏதேனும்"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1149
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1838
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1846
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1851
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1839
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1847
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1852
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:88
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:103
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:141
@@ -13604,7 +13608,7 @@ msgstr "வேண்டும்"
 msgid "between:"
 msgstr "இடையில்:"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1911
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1912
 msgid "bridged"
 msgstr "பிரிட்ச்"
 
@@ -13785,7 +13789,7 @@ msgstr "அரை-இரட்டை"
 msgid "hexadecimal encoded value"
 msgstr "எக்சாடெசிமல் குறியிடப்பட்ட மதிப்பு"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2253
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2254
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/channel_analysis.js:372
 msgid "hidden"
 msgstr "மறைக்கப்பட்ட"
@@ -14001,7 +14005,7 @@ msgstr ""
 msgid "relay mode"
 msgstr "ரிலே பயன்முறை"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1912
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1913
 msgid "routed"
 msgstr "திசைதிருப்பப்பட்டது"
 

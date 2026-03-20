@@ -24,7 +24,7 @@ function handleAction(ev) {
 					btn.blur();
 				});
 				return fs.exec_direct('/etc/init.d/adblock', [ev]);
-			})
+			});
 	} else {
 		if (ev !== 'stop') {
 			document.querySelectorAll('.cbi-page-actions button').forEach(function (btn) {
@@ -49,6 +49,7 @@ return view.extend({
 			`https://${window.location.hostname}/cgi-bin/adblock`
 		]);
 	},
+
 	render: function (result) {
 		/*
 			config check
@@ -78,6 +79,7 @@ return view.extend({
 		/*
 			poll runtime information
 		*/
+		let parseErrCount = 0;
 		poll.add(function () {
 			return L.resolveDefault(fs.stat('/var/run/adb_runtime.json'), null).then(function (stat) {
 				if (!stat) {
@@ -89,15 +91,17 @@ return view.extend({
 					let info = null;
 					try {
 						info = JSON.parse(res);
+						parseErrCount = 0;
 					} catch (e) {
 						info = null;
+						parseErrCount++;
 						if (status) {
 							status.textContent = '-';
-							if (status.classList.contains('spinning')) {
-								buttons.forEach(function (btn) {
-									btn.disabled = false;
-								})
-								status.classList.remove('spinning');
+							buttons.forEach(function (btn) {
+								btn.disabled = false;
+							});
+							status.classList.remove('spinning');
+							if (parseErrCount >= 3) {
 								ui.addNotification(null, E('p', _('Unable to parse the adblock runtime information!')), 'error');
 								poll.stop();
 							}
@@ -107,31 +111,26 @@ return view.extend({
 					if (status && info) {
 						status.textContent = `${info.adblock_status || '-'} (frontend: ${info.frontend_ver || '-'} / backend: ${info.backend_ver || '-'})`;
 						if (info.adblock_status === "processing") {
-							if (!status.classList.contains("spinning")) {
-								status.classList.add("spinning");
-							}
 							buttons.forEach(function (btn) {
 								btn.disabled = true;
 								btn.blur();
-							})
+							});
+							if (!status.classList.contains("spinning")) {
+								status.classList.add("spinning");
+							}
 						} else {
-							if (status.classList.contains("spinning")) {
-								buttons.forEach(function (btn) {
-									btn.disabled = false;
-								})
-								status.classList.remove("spinning");
-								if (document.getElementById('btn_suspend')) {
-									if (info.adblock_status === 'paused') {
-										document.querySelector('#btn_suspend').textContent = 'Resume';
-									}
-									if (info.adblock_status === 'enabled') {
-										document.querySelector('#btn_suspend').textContent = 'Suspend';
-									}
+							status.classList.remove("spinning");
+							if (document.getElementById('btn_suspend')) {
+								if (info.adblock_status === 'paused') {
+									document.querySelector('#btn_suspend').textContent = 'Resume';
+								}
+								if (info.adblock_status === 'enabled') {
+									document.querySelector('#btn_suspend').textContent = 'Suspend';
 								}
 							}
-						}
-						if (info.adblock_status === 'paused' && document.getElementById('btn_suspend')) {
-							document.querySelector('#btn_suspend').textContent = 'Resume';
+							buttons.forEach(function (btn) {
+								btn.disabled = false;
+							});
 						}
 					}
 					if (info) {
@@ -185,7 +184,7 @@ return view.extend({
 				]),
 				E('div', { 'class': 'cbi-value' }, [
 					E('label', { 'class': 'cbi-value-title', 'style': 'margin-bottom:-5px;padding-top:0rem;' }, _('Last Run')),
-					E('div', { 'class': 'cbi-value-field', 'id': 'last', 'style': 'margin - bottom:- 5px; color:#37c; ' }, ' - ')
+					E('div', { 'class': 'cbi-value-field', 'id': 'last', 'style': 'margin-bottom:-5px;color:#37c;' }, '-')
 				]),
 				E('div', { 'class': 'cbi-value' }, [
 					E('label', { 'class': 'cbi-value-title', 'style': 'margin-bottom:-5px;padding-top:0rem;' }, _('System Info')),
@@ -229,7 +228,7 @@ return view.extend({
 		o.rmempty = true;
 
 		o = s.taboption('general', form.Flag, 'adb_tld', _('TLD Compression'), _('The top level domain compression removes thousands of needless host entries from the final DNS blocklist.'));
-		o.default = 1
+		o.default = 1;
 		o.rmempty = true;
 
 		o = s.taboption('general', form.Flag, 'adb_safesearch', _('Enable SafeSearch'), _('Enforcing SafeSearch for google, bing, brave, duckduckgo, yandex, youtube and pixabay.'));
@@ -308,13 +307,13 @@ return view.extend({
 		o.rmempty = true;
 
 		o = s.taboption('additional', form.Flag, 'adb_fetchinsecure', _('Download Insecure'), _('Don\'t check SSL server certificates during download.'));
-		o.default = 0
+		o.default = 0;
 		o.rmempty = true;
 
 		/*
 			firewall settings tab
 		*/
-		o = s.taboption('firewall', form.DummyValue, '_sub');
+		o = s.taboption('firewall', form.DummyValue, '_fw_sub1');
 		o.rawhtml = true;
 		o.default = '<em style="color:#37c;font-weight:bold;">' + _('Changes on this tab needs an adblock service restart to take effect.') + '</em>'
 			+ '<hr style="width: 200px; height: 1px;" />'
@@ -362,7 +361,7 @@ return view.extend({
 		o.default = '2a13:1001::86:54:11:100';
 		o.rmempty = true;
 
-		o = s.taboption('firewall', form.DummyValue, '_sub');
+		o = s.taboption('firewall', form.DummyValue, '_fw_sub2');
 		o.rawhtml = true;
 		o.default = '<hr style="width: 200px; height: 1px;" /><em style="color:#37c;font-weight:bold;">' + _('External Filtered DNS Policy (MAC-/Interface‑based DNS bypass)') + '</em>';
 
@@ -426,7 +425,7 @@ return view.extend({
 		o.default = '2a13:1001::86:54:11:13';
 		o.rmempty = true;
 
-		o = s.taboption('firewall', form.DummyValue, '_sub');
+		o = s.taboption('firewall', form.DummyValue, '_fw_sub3');
 		o.rawhtml = true;
 		o.default = '<hr style="width: 200px; height: 1px;" /><em style="color:#37c;font-weight:bold;">' + _('External Remote DNS Policy (temporary MAC‑based remote DNS bypass)') + '</em>';
 
@@ -486,12 +485,12 @@ return view.extend({
 				blackColor: 'black'
 			};
 			const svg = uqr.renderSVG(url, options);
-			o = s.taboption('firewall', form.DummyValue, '_sub', _('QRCode for Remote Access'));
+			o = s.taboption('firewall', form.DummyValue, '_fw_qr', _('QRCode for Remote Access'));
 			o.rawhtml = true;
 			o.default = svg;
 		}
 
-		o = s.taboption('firewall', form.DummyValue, '_sub');
+		o = s.taboption('firewall', form.DummyValue, '_fw_sub4');
 		o.rawhtml = true;
 		o.default = '<hr style="width: 200px; height: 1px;" /><em style="color:#37c;font-weight:bold;">' + _('External DNS Bridge (Zero‑Downtime during DNS Restarts)') + '</em>';
 
@@ -516,6 +515,12 @@ return view.extend({
 		o.value('1.1.1.2', _('Cloudflare (malware)'));
 		o.value('1.1.1.3', _('Cloudflare (malware+family)'));
 		o.value('9.9.9.9', _('Quad9 (malware)'));
+		o.value('86.54.11.100', _('DNS4EU (unfiltered)'));
+		o.value('94.140.14.140', _('AdGuard (unfiltered)'));
+		o.value('76.76.2.0', _('Control D (unfiltered)'));
+		o.value('1.1.1.1', _('Cloudflare (unfiltered)'));
+		o.value('9.9.9.10', _('Quad9 (unfiltered)'));
+		o.value('185.150.99.255', _('Digitale Gesellschaft (unfiltered)'));
 		o.default = '86.54.11.13';
 		o.rmempty = true;
 
@@ -537,10 +542,16 @@ return view.extend({
 		o.value('2606:4700:4700::1112', _('Cloudflare (malware)'));
 		o.value('2606:4700:4700::1113', _('Cloudflare (malware+family)'));
 		o.value('2620:fe::fe', _('Quad9 (malware)'));
+		o.value('2a13:1001::86:54:11:100', _('DNS4EU (unfiltered)'));
+		o.value('2a10:50c0::1:ff', _('AdGuard (unfiltered)'));
+		o.value('2606:1a40::', _('Control D (unfiltered)'));
+		o.value('2606:4700:4700::1111', _('Cloudflare (unfiltered)'));
+		o.value('2620:fe::10', _('Quad9 (unfiltered)'));
+		o.value('2a07:6b47:6b47::255', _('Digitale Gesellschaft (unfiltered)'));
 		o.default = '2a13:1001::86:54:11:13';
 		o.rmempty = true;
 
-		o = s.taboption('firewall', form.DummyValue, '_sub');
+		o = s.taboption('firewall', form.DummyValue, '_fw_sub5');
 		o.rawhtml = true;
 		o.default = '<hr style="width: 200px; height: 1px;" /><em style="color:#37c;font-weight:bold;">' + _('Local DNS Enforcement') + '</em>';
 
@@ -714,12 +725,9 @@ return view.extend({
 		/*
 			prepare category data
 		*/
-		var code, category, list, path, categories = [];
-		if (result[2]) {
-			categories = result[2].trim().split('\n');
-		}
+		const categories = result[2] ? result[2].trim().split('\n') : [];
 
-		o = s.taboption('feeds', form.DummyValue, '_sub');
+		o = s.taboption('feeds', form.DummyValue, '_feeds1');
 		o.rawhtml = true;
 		o.default = '<hr style="width: 200px; height: 1px;" /><em style="color:#37c;font-weight:bold;">' + _('1Hosts List Selection') + '</em>';
 
@@ -727,19 +735,14 @@ return view.extend({
 		for (let i = 0; i < categories.length; i++) {
 			const cat = categories[i].match(/^(\w+);(.*?);(.*)$/);
 			if (!cat) continue;
-
-			const code = cat[1].trim();
-			const list = cat[2].trim();
-			const path = cat[3].trim();
-
-			if (code === 'hst') {
-				o.value(path, list);
+			if (cat[1].trim() === 'hst') {
+				o.value(cat[3].trim(), cat[2].trim());
 			}
 		}
 		o.optional = true;
 		o.rmempty = true;
 
-		o = s.taboption('feeds', form.DummyValue, '_sub');
+		o = s.taboption('feeds', form.DummyValue, '_feeds2');
 		o.rawhtml = true;
 		o.default = '<hr style="width: 200px; height: 1px;" /><em style="color:#37c;font-weight:bold;">' + _('Hagezi List Selection') + '</em>';
 
@@ -747,19 +750,14 @@ return view.extend({
 		for (let i = 0; i < categories.length; i++) {
 			const cat = categories[i].match(/^(\w+);(.*?);(.*)$/);
 			if (!cat) continue;
-
-			const code = cat[1].trim();
-			const list = cat[2].trim();
-			const path = cat[3].trim();
-
-			if (code === 'hag') {
-				o.value(path, list);
+			if (cat[1].trim() === 'hag') {
+				o.value(cat[3].trim(), cat[2].trim());
 			}
 		}
 		o.optional = true;
 		o.rmempty = true;
 
-		o = s.taboption('feeds', form.DummyValue, '_sub');
+		o = s.taboption('feeds', form.DummyValue, '_feeds3');
 		o.rawhtml = true;
 		o.default = '<hr style="width: 200px; height: 1px;" /><em style="color:#37c;font-weight:bold;">' + _('IPFire List Selection') + '</em>';
 
@@ -767,19 +765,14 @@ return view.extend({
 		for (let i = 0; i < categories.length; i++) {
 			const cat = categories[i].match(/^(\w+);(.*?);(.*)$/);
 			if (!cat) continue;
-
-			const code = cat[1].trim();
-			const list = cat[2].trim();
-			const path = cat[3].trim();
-
-			if (code === 'ipf') {
-				o.value(path, list);
+			if (cat[1].trim() === 'ipf') {
+				o.value(cat[3].trim(), cat[2].trim());
 			}
 		}
 		o.optional = true;
 		o.rmempty = true;
 
-		o = s.taboption('feeds', form.DummyValue, '_sub');
+		o = s.taboption('feeds', form.DummyValue, '_feeds4');
 		o.rawhtml = true;
 		o.default = '<hr style="width: 200px; height: 1px;" /><em style="color:#37c;font-weight:bold;">' + _('StevenBlack List Selection') + '</em>';
 
@@ -787,19 +780,14 @@ return view.extend({
 		for (let i = 0; i < categories.length; i++) {
 			const cat = categories[i].match(/^(\w+);(.*?);(.*)$/);
 			if (!cat) continue;
-
-			const code = cat[1].trim();
-			const list = cat[2].trim();
-			const path = cat[3].trim();
-
-			if (code === 'stb') {
-				o.value(path, list);
+			if (cat[1].trim() === 'stb') {
+				o.value(cat[3].trim(), cat[2].trim());
 			}
 		}
 		o.optional = true;
 		o.rmempty = true;
 
-		o = s.taboption('feeds', form.DummyValue, '_sub');
+		o = s.taboption('feeds', form.DummyValue, '_feeds5');
 		o.rawhtml = true;
 		o.default = '<hr style="width: 200px; height: 1px;" /><em style="color:#37c;font-weight:bold;">' + _('UTCapitole Archive Selection') + '</em>';
 
@@ -807,12 +795,8 @@ return view.extend({
 		for (let i = 0; i < categories.length; i++) {
 			const cat = categories[i].match(/^(\w+);(.*)$/);
 			if (!cat) continue;
-
-			const code = cat[1].trim();
-			const category = cat[2].trim();
-
-			if (code === 'utc') {
-				o.value(category);
+			if (cat[1].trim() === 'utc') {
+				o.value(cat[2].trim());
 			}
 		}
 		o.optional = true;
@@ -854,10 +838,10 @@ return view.extend({
 					'style': 'float:none',
 					'title': 'Save & Restart',
 					'click': function () {
-						handleAction('restart');
+						return handleAction('restart');
 					}
 				}, [_('Save & Restart')])
-			])
+			]);
 		});
 		return m.render();
 	},
