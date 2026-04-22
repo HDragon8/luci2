@@ -6,8 +6,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-06-10 03:40+0200\n"
-"PO-Revision-Date: 2026-03-19 06:47+0000\n"
-"Last-Translator: EESF-2 <eesf-2@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-04-08 22:10+0000\n"
+"Last-Translator: UDP <udp@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsstatistics/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -518,7 +518,7 @@ msgstr "防火牆 (IPv6)"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/rrdtool.js:95
 msgid "Flush cache after"
-msgstr ""
+msgstr "清除快取後"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/network.js:25
 msgid "Forwarding between listen and server addresses"
@@ -802,7 +802,7 @@ msgstr "監控掛載點"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/processes.js:14
 msgid "Monitor processes"
-msgstr "監控程序"
+msgstr "監控行程"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/tcpconns.js:25
 msgid "Monitor remote ports"
@@ -931,7 +931,7 @@ msgstr[0] "監控 %d 個中斷"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/processes.js:23
 msgid "Monitoring one process"
 msgid_plural "Monitoring %d processes"
-msgstr[0] "監控 %d 個程式"
+msgstr[0] "監控 %d 個行程"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/sensors.js:60
 msgid "Monitoring one sensor"
@@ -1119,11 +1119,11 @@ msgstr "前綴"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/processes.js:7
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/processes.json:2
 msgid "Processes"
-msgstr "程序"
+msgstr "行程"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/processes.js:6
 msgid "Processes Plugin Configuration"
-msgstr "程序外掛配置"
+msgstr "行程外掛配置"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/cpu.js:8
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/cpu.json:2
@@ -1300,7 +1300,7 @@ msgstr "設定 collectd"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/syslog.js:14
 msgid "Sets the syslog log-level."
-msgstr "設定 syslog 的紀錄級別。"
+msgstr "設定 syslog 的紀錄等級。"
 
 #: applications/luci-app-statistics/root/usr/share/luci/menu.d/luci-app-statistics.json:24
 msgid "Setup"
@@ -1559,7 +1559,7 @@ msgid ""
 "to be used in conjunction with Mail::SpamAssasin::Plugin::Collectd but can "
 "be used in other ways as well."
 msgstr ""
-"email 外掛建立一個 unix socket 用於為 collectd 守護程序傳送統計資料到電子郵件"
+"email 外掛建立一個 unix socket 用於為 collectd 守護程式傳送統計資料到電子郵件"
 "系統。這個外掛主要目的是結合使用 Mail::SpamAssasin::Pulgin::Collectd，但可以"
 "用在其他方面。"
 
@@ -1644,7 +1644,7 @@ msgstr "ping 外掛將傳送 icmp echo 到選定主機來測量每臺主機的�
 msgid ""
 "The processes plugin collects information like cpu time, page faults and "
 "memory usage of selected processes."
-msgstr "處理程序外掛收集選定程序的 cpu 時間、頁面錯誤和記憶體使用資訊。"
+msgstr "行程外掛收集選定行程的 cpu 時間、頁面錯誤和記憶體使用資訊。"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/rrdtool.js:7
 msgid ""
